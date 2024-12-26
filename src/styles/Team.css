@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.team-section {
+  background-image: url('../assets/Background\ 2.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background image fixed */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.9); /* Darker background overlay */
+  color: white;
+  min-height: 100vh;
+}
+
+.team-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 14px;
+}
+
+.filter-dropdown {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 14px;
+  min-width: 200px;
+}
+
+.team-category {
+  margin-bottom: 50px;
+}
+
+.team-category h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 28px;
+  color: #f1f1f1;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+}
+
+.team-card {
+  height: 220px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 25px;
+  text-align: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  background: linear-gradient(
+    86.16deg,
+    rgba(255, 255, 255, 0.2) 11.14%,
+    rgba(255, 255, 255, 0.035) 113.29%
+  );
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    155.31deg,
+    rgba(255, 255, 255, 0.115) 12.33%,
+    rgba(255, 255, 255, 0) 34.31%,
+    rgba(255, 255, 255, 0) 52.66%,
+    rgba(255, 255, 255, 0.1242) 74.67%
+  ); /* Gradient border */
+  backdrop-filter: blur(70px); /* Enhanced blur */
+  box-shadow: 
+    0px 1.2px 29.92px 0px #452A7C1A, /* Outer shadow */
+    10px 10px 29px 0px #FFFFFF40 inset; /* Inner shadow */
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.4), inset 0px 0px 15px rgba(255, 255, 255, 0.4);
+}
+
+.team-card img {
+  width: 120px; /* Increased image size */
+  height: 120px; /* Increased image size */
+  border-radius: 50%;
+  margin-bottom: 3px; /* Further reduced gap between image and name */
+}
+
+.team-card h3 {
+  margin: 3px 0; /* Further reduced margin */
+  font-size: 20px; /* Increased font size */
+  color: #fff;
+  font-weight: bold;
+}
+
+.team-card p {
+  font-size: 16px; /* Increased description font size */
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-links a img {
+  width: 20px; /* Decreased icon size for Instagram and LinkedIn */
+  height: 20px; /* Decreased icon size for Instagram and LinkedIn */
+  transition: transform 0.2s ease;
+}
+
+.social-links a img:hover {
+  transform: scale(1.2);
+}
+
+.year-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(70px); /* Increased blur */
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    155.31deg,
+    rgba(255, 255, 255, 0.115) 12.33%,
+    rgba(255, 255, 255, 0) 34.31%,
+    rgba(255, 255, 255, 0) 52.66%,
+    rgba(255, 255, 255, 0.1242) 74.67%
+  ); /* Gradient border */
+  box-shadow: 
+    0px 1.2px 29.92px 0px #452A7C1A, /* Outer shadow */
+    10px 10px 29px 0px #FFFFFF40 inset; /* Inner shadow */
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1200px) {
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+
+  .team-card {
+    height: 200px;
+    padding: 10px;
+  }
+
+  .team-card img {
+    width: 100px; /* Increased image size for medium screens */
+    height: 100px; /* Increased image size for medium screens */
+    margin-bottom: 2px; /* Reduced gap for medium screens */
+  }
+
+  .team-card h3 {
+    font-size: 22px; /* Increased name font size for medium screens */
+    margin: 2px 0; /* Reduced gap for medium screens */
+  }
+
+  .team-card p {
+    font-size: 18px; /* Increased description font size for medium screens */
+  }
+
+  .social-links a img {
+    width: 18px; /* Decreased icon size for medium screens */
+    height: 18px; /* Decreased icon size for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .team-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-bar,
+  .filter-dropdown {
+    width: 100%;
+  }
+
+  .team-category h2 {
+    font-size: 22px;
+  }
+
+  .team-card {
+    height: 180px;
+  }
+
+  .team-card img {
+    width: 90px; /* Increased image size for small screens */
+    height: 90px; /* Increased image size for small screens */
+    margin-bottom: 2px; /* Reduced gap for small screens */
+  }
+
+  .team-card h3 {
+    font-size: 20px; /* Increased name font size for small screens */
+    margin: 2px 0; /* Reduced gap for small screens */
+  }
+
+  .team-card p {
+    font-size: 18px; /* Increased description font size for small screens */
+  }
+
+  .social-links a img {
+    width: 16px; /* Decreased icon size for small screens */
+    height: 16px; /* Decreased icon size for small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .team-category h2 {
+    font-size: 20px;
+  }
+
+  .team-card {
+    height: 160px;
+    padding: 10px;
+  }
+
+  .team-card img {
+    width: 80px; /* Increased image size for extra small screens */
+    height: 80px; /* Increased image size for extra small screens */
+    margin-bottom: 2px; /* Reduced gap for extra small screens */
+  }
+
+  .team-card h3 {
+    font-size: 18px; /* Increased name font size for extra small screens */
+    margin: 2px 0; /* Reduced gap for extra small screens */
+  }
+
+  .team-card p {
+    font-size: 16px; /* Increased description font size for extra small screens */
+  }
+
+  .social-links a img {
+    width: 14px; /* Decreased icon size for extra small screens */
+    height: 14px; /* Decreased icon size for extra small screens */
+  }
+
+  .social-links {
+    gap: 5px;
+  }
+}
