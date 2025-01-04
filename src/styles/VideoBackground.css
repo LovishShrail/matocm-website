@@ -6,18 +6,18 @@ body{
 }
 
 .video-background-container {
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;  
+    height: 70vh;  
     overflow: hidden;
     z-index: -1; 
   }
   
 
   .video-background {
-    position: absolute;
+    position:absolute;
     top: 0;
     left: 0;
     width: 100%;

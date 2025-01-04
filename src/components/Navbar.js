@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // import { Link } from 'react-router-dom';
 import { Menu, X, Home, FileText, LayoutGrid, Bell, Users,  Mail } from 'lucide-react';
 import { Linkedin, Github, Instagram } from 'lucide-react';
-import '../styles/Navbar.css';
+import '../styles/Navbar.css'; 
 import logo from '../assets/matcom logo white (1) 1.png';
 
 const NAV_ITEMS = [
@@ -23,7 +23,7 @@ const SOCIAL_ITEMS = [
 
 
 const NavItem = ({ label, icon: Icon, href }) => (
-    <a href={href} className="dropdown-item" target="_blank" rel="noopener noreferrer">
+    <a href={href} className="dropdown-item">
       <Icon className="dropdown-item-icon" size={18} />
       {label}
     </a>
