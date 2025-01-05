@@ -6,6 +6,7 @@ import Team from './pages/Team';
 import Projects from './pages/Projects';
 import AboutUs from './pages/AboutUs';
 import Navbar from './components/Navbar'; 
+import Work from './pages/Work';
 
 function App() {
   return (
@@ -21,9 +22,11 @@ function App() {
         
         <Route path="/projects" element={<Projects />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/our-work" element={<Work />} />
       </Routes>
     </Router>
   );
 }
+
 
 export default App;
