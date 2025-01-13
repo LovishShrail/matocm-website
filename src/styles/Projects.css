@@ -8,6 +8,7 @@
 }
 
 .project-section {
+
   background-image: url('../assets/Background\ 2.png');
   background-size: cover;
   background-position: center;
@@ -84,6 +85,7 @@
 /* Project Category Styles */
 .project-category {
   margin-bottom: 50px;
+  /* padding-top: 3.5rem */
 }
 
 .project-category h2 {
@@ -228,11 +230,16 @@
 }
 
 /* RESPONSIVE DESIGN */
-@media (max-width: 1200px) {
-  .project-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
+@media (min-width: 768px) {
+
+  .project-section {
+    padding-top: 4.5rem;
   }
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Maximum of 3 columns */
+    gap: 20px;
+}
   .project-card {
     height: 200px;
     padding: 10px;
@@ -256,6 +263,10 @@
 }
 
 @media (max-width: 768px) {
+
+  .project-section {
+    padding-top: 4rem;
+  }
   .project-header {
     flex-direction: column;
     gap: 15px;
@@ -297,6 +308,10 @@
 }
 
 @media (max-width: 480px) {
+
+  .project-section{
+    padding-top: 4rem;
+  }
   .project-category h2 {
     font-size: 20px;
   }

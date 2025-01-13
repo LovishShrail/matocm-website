@@ -8,7 +8,7 @@ const AboutSection = () => {
     <>
     <div className="about-us-section">
 
-      <div class="vertical-text">
+      <div className="vertical-text">
         <p>NIMBUS </p>
         <p>MATCOM</p>
         <p>TECH</p>
