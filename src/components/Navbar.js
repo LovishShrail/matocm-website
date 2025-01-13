@@ -1,56 +1,90 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 // import { Link } from 'react-router-dom';
-import { Menu, X, Home, FileText, LayoutGrid, Bell, Users,  Mail } from 'lucide-react';
+import { Menu, X, Home, FileText, LayoutGrid, Bell, Users, Mail } from 'lucide-react';
 import { Linkedin, Github, Instagram } from 'lucide-react';
-import '../styles/Navbar.css'; 
+import '../styles/Navbar.css';
 import logo from '../assets/matcom logo white (1) 1.png';
 
 const NAV_ITEMS = [
-  { label: 'Home', icon: Home , href: '/'},
-  { label: 'About us', icon: FileText , href: '/about-us'},
-  { label: 'Our Work', icon: LayoutGrid , href: '/our-work'},
-  { label: 'Projects', icon: Bell , href: '/projects'},
-  { label: 'Team', icon: Users , href: '/team'},
+  { label: 'Home', icon: Home, href: '/' },
+  { label: 'Our Work', icon: LayoutGrid, href: '/our-work' },
+  { label: 'Projects', icon: Bell, href: '/projects' },
+  { label: 'Team', icon: Users, href: '/team' },
+  { label: 'About Us', icon: FileText, href: '#about-us' },
 ];
 
 const SOCIAL_ITEMS = [
-  { label: 'Linkedin', icon: Linkedin, href: '/https://www.linkedin.com/company/matcom-nith/' },
-  { label: 'Gmail', icon: Mail, href: '#' },
+  { label: 'Linkedin', icon: Linkedin, href: '/https://www.linkedin.com/company/matcom-nith/'  },
+  { label: 'Gmail', icon: Mail, href: "mailto:matcom.nimbus@nith.ac.in" },
   { label: 'Github', icon: Github, href: '#' },
   { label: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/matcom_nith?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' },
 ];
 
-
-
-const NavItem = ({ label, icon: Icon, href }) => (
-    <a href={href} className="dropdown-item">
-      <Icon className="dropdown-item-icon" size={18} />
-      {label}
-    </a>
-  );
-  
-
-  
-
-const NavSection = ({ title, items }) => (
-  <div className="dropdown-section">
-    <div className="dropdown-section-title">{title}</div>
-    {items.map((item) => (
-      <NavItem key={item.label} {...item} />
-    ))}
-  </div>
+const NavItem = ({ label, href, isActive, onClick }) => (
+  <a
+    href={href}
+    className={`nav-item ${isActive ? 'active' : ''}`}
+    onClick={(e) => {
+      onClick();
+    }}
+  >
+    {label}
+  </a>
 );
+
+
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [activeItem, setActiveItem] = useState('');
   const toggleMenu = () => setIsOpen(!isOpen);
 
+  useEffect(() => {
+    const currentPath = window.location.pathname;
+    const activeNavItem = NAV_ITEMS.find((item) => item.href === currentPath);
+    if (activeNavItem) {
+      setActiveItem(activeNavItem.label);
+    }
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  
+
+
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${isScrolled ? 'navbar-scrolled' : ''}`}>
       <div className="navbar-container">
-        {/* <a href="/" className="logo">LOGO</a> */}
-        <div className="logo-container"> 
+        <div className="logo-container">
+          <a href="/" className="logo-button">
             <img src={logo} alt="MATCOM Logo" />
+          </a>
+        </div>
+        <div className="nav-items">
+          {NAV_ITEMS.map((item) => (
+            <NavItem
+              key={item.label}
+              label={item.label}
+              href={item.href}
+              isActive={activeItem === item.label}
+              onClick={() => setActiveItem(item.label)}
+            />
+          ))}
         </div>
         <button className="menu-button" onClick={toggleMenu} aria-label="Toggle menu">
           <Menu />
@@ -63,9 +97,15 @@ const Navbar = () => {
           </button>
         </div>
         <div className="dropdown-content">
-          <NavSection title="Tabs" items={NAV_ITEMS} />
-          
-          <NavSection title="Socials" items={SOCIAL_ITEMS} />
+          <div className="dropdown-section">
+            <div className="dropdown-section-title">Socials</div>
+            {SOCIAL_ITEMS.map((item) => (
+              <a key={item.label} href={item.href} className="dropdown-item">
+                <item.icon className="dropdown-item-icon" size={18} />
+                {item.label}
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </nav>

@@ -57,7 +57,7 @@ const FAQSection = () => {
             question: "How to contact us?",
             answer: (
                 <>
-                    You can contact us via Email by <a href="mailto:your-email@example.com" target="_blank" rel="noopener noreferrer">Clicking Here</a> or reach out on our Instagram by <a href="https://www.instagram.com/matcom_nith?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">Clicking Here</a>.
+                    You can contact us via Email by <a href="mailto:matcom.nimbus@nith.ac.in" target="_blank" rel="noopener noreferrer">Clicking Here</a> or reach out on our Instagram by <a href="https://www.instagram.com/matcom_nith?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">Clicking Here</a>.
                 </>
             )
         }
