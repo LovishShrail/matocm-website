@@ -44,6 +44,78 @@ const teamData = [
           linkedin: "#",
         },
       },
+      {
+        name: "Aditya Sangal",
+        image: member1,
+        links: {
+          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
+          linkedin: "#",
+        },
+      },
+      {
+        name: "Aditya Sangal",
+        image: member1,
+        links: {
+          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
+          linkedin: "#",
+        },
+      },
+      {
+        name: "Aditya Sangal",
+        image: member1,
+        links: {
+          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
+          linkedin: "#",
+        },
+      },
+      {
+        name: "Aditya Sangal",
+        image: member1,
+        links: {
+          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
+          linkedin: "#",
+        },
+      },
+      {
+        name: "Aditya Sangal",
+        image: member1,
+        links: {
+          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
+          linkedin: "#",
+        },
+      },
+      {
+        name: "Aditya Sangal",
+        image: member1,
+        links: {
+          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
+          linkedin: "#",
+        },
+      },
+      {
+        name: "Aditya Sangal",
+        image: member1,
+        links: {
+          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
+          linkedin: "#",
+        },
+      },
+      {
+        name: "Aditya Sangal",
+        image: member1,
+        links: {
+          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
+          linkedin: "#",
+        },
+      },
+      {
+        name: "Aditya Sangal",
+        image: member1,
+        links: {
+          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
+          linkedin: "#",
+        },
+      },
       // Add more 2nd-year members
     ],
   },

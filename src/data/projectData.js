@@ -12,6 +12,30 @@ const projectData = [
         description: "Description aboeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project Betut Project Alpha."
       },
       {
+        name: 'Project Alpha',
+        image: image1,
+        links: { instagram: "#", linkedin: "#" },
+        description: "Description aboeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project Betut Project Alpha."
+      },
+      {
+        name: 'Project Alpha',
+        image: image1,
+        links: { instagram: "#", linkedin: "#" },
+        description: "Description aboeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project Betut Project Alpha."
+      },
+      {
+        name: 'Project Alpha',
+        image: image1,
+        links: { instagram: "#", linkedin: "#" },
+        description: "Description aboeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project Betut Project Alpha."
+      },
+      {
+        name: 'Project Alpha',
+        image: image1,
+        links: { instagram: "#", linkedin: "#" },
+        description: "Description aboeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project BeDescription about Project Betut Project Alpha."
+      },
+      {
         name: "Project Beta",
         image: "https://s3-alpha-sig.figma.com/img/5373/e1db/457e01a12d581d01e5869ca67f34b6ca",
         links: { instagram: "#", linkedin: "#" },

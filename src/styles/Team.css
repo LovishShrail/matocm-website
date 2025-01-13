@@ -22,6 +22,7 @@
 
 /* Team Header Styles */
 .team-header {
+  padding-top: 3.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,6 +56,7 @@
   display: flex;
   gap: 10px;
   align-items: center;
+
 }
 
 .filter-dropdown {
@@ -86,6 +88,7 @@
 /* Team Category Styles */
 .team-category {
   margin-bottom: 50px;
+  margin-bottom: 2rem;
 }
 
 .team-category h2 {
@@ -131,7 +134,7 @@
   }
 
 .team-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.4), inset 0px 0px 15px rgba(255, 255, 255, 0.4);
 }
 
@@ -140,12 +143,14 @@
   height: auto; /* Maintain aspect ratio */
   border-radius: 10px; /* Slightly rounded edges */
   margin-bottom: 3px;
-}.team-card {
+}
+
+/* .team-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 220px;
-  width: 100%;
+  width: 80%;
   padding: 15px;
   border-radius: 25px;
   text-align: center;
@@ -165,7 +170,7 @@
   );
   backdrop-filter: blur(70px);
   box-shadow: 0px 1.2px 29.92px 0px #452A7C1A, 10px 10px 29px 0px #FFFFFF40 inset;
-}
+} */
 
 .team-card img {
   width: 150px;
@@ -188,7 +193,8 @@
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 10px;
   order: 1; /* Ensure the text is on the left side */
-}.team-card {
+}
+/* .team-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -213,7 +219,7 @@
   );
   backdrop-filter: blur(70px);
   box-shadow: 0px 1.2px 29.92px 0px #452A7C1A, 10px 10px 29px 0px #FFFFFF40 inset;
-}
+} */
 
 .team-card img {
   width: 150px;
@@ -264,7 +270,7 @@
 }
 
 .social-links a img:hover {
-  transform: scale(1.2);
+  transform: scale(0.3);
 }
 
 .year-heading {
@@ -287,11 +293,12 @@
 }
 
 /* RESPONSIVE DESIGN */
-@media (max-width: 1200px) {
+@media (min-width: 780px) {
   .team-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Maximum of 3 columns */
     gap: 20px;
-  }
+}
   .team-card {
     height: 200px;
     padding: 10px;
@@ -335,6 +342,7 @@
   }
   .team-category h2 {
     font-size: 22px;
+
   }
   .team-card {
     height: 180px;
