@@ -3,8 +3,9 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import '../styles/Home.css';
 import AboutSection from './AboutUs';
 import FAQSection from '../components/Faq';
-import Png from '../assets/bg.png';
+// import Png from '../assets/bg 3.png';
 import QuerySection from '../components/QuerySection.js';
+import AnimatedTitle from '../components/AnimatedTitle.js';
 
 const Home = () => {
   const { scrollYProgress } = useScroll();
@@ -20,14 +21,14 @@ const Home = () => {
     }
   };
 
-  const gradientAnimation = {
-    background: "linear-gradient(-45deg, #ff69b4, #e890e8, #b19cd9, #9370db, #8a2be2)",
-    backgroundSize: "200% 200%",
-    animation: "gradient 15s ease infinite",
-    WebkitBackgroundClip: "text",
-    WebkitTextFillColor: "transparent",
-    backgroundClip: "text"
-  };
+  // const gradientAnimation = {
+  //   background: "linear-gradient(-45deg, #ff69b4, #e890e8, #b19cd9, #9370db, #8a2be2)",
+  //   backgroundSize: "200% 200%",
+  //   animation: "gradient 15s ease infinite",
+  //   WebkitBackgroundClip: "text",
+  //   WebkitTextFillColor: "transparent",
+  //   backgroundClip: "text"
+  // };
 
 
   useEffect(() => {
@@ -62,25 +63,14 @@ const Home = () => {
         animate="visible"
         style={{ y: backgroundY }}
       >
-        <motion.div
-          className="team-title"
-          variants={fadeInUp}
-        >
+        {/* <motion.div className="team-title" variants={fadeInUp}>
           <div className="matcom" style={gradientAnimation}>
             Team MATCOM
           </div>
-          <motion.div
-            className="nit-hamirpur"
-            variants={fadeInUp}
-            transition={{ delay: 0.2 }}
-          >
+          <motion.div className="nit-hamirpur" variants={fadeInUp} transition={{ delay: 0.2 }}>
             NIT Hamirpur
           </motion.div>
-          <motion.div
-            className="description"
-            variants={fadeInUp}
-            transition={{ delay: 0.4 }}
-          >
+          <motion.div className="description" variants={fadeInUp} transition={{ delay: 0.4 }}>
             A technical initiative associated with The Department of Mathematics and Scientific Computing
           </motion.div>
         </motion.div>
@@ -92,6 +82,11 @@ const Home = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <img src={Png} alt="png-image" />
+        </motion.div> */}
+
+
+        <motion.div variants={fadeInUp}>
+          <AnimatedTitle />
         </motion.div>
       </motion.div>
 
@@ -132,10 +127,10 @@ const Home = () => {
         viewport={{ once: true }}
       >
         <div className='footer-content1'>
-            © MATCOM | NIMBUS 2025 
+          © MATCOM | NIMBUS 2025
         </div>
         <div className='footer-content2'>
-            Designed by MATCOM ❤️ 
+          Designed by MATCOM ❤️
         </div>
       </motion.footer>
     </div>

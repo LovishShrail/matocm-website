@@ -10,7 +10,7 @@
 }
 
 .team-section {
-  background-image: url('../assets/Background\ 2.png');
+  background-image: url('../assets/Android\ Medium\ -\ 1\ \(1\).png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -116,61 +116,47 @@
     border-radius: 25px;
     text-align: center;
     transition: transform 0.3s ease, opacity 0.3s ease;
-    background: linear-gradient(
+    background-color: #262136;
+    
+    /* background: linear-gradient(
       86.16deg,
       rgba(255, 255, 255, 0.2) 11.14%,
       rgba(255, 255, 255, 0.035) 113.29%
-    );
-    border: 1px solid;
-    border-image-source: linear-gradient(
+    ); */
+    /* border: 1px solid; */
+    /* border-image-source: linear-gradient(
       155.31deg,
       rgba(255, 255, 255, 0.115) 12.33%,
       rgba(255, 255, 255, 0) 34.31%,
       rgba(255, 255, 255, 0) 52.66%,
       rgba(255, 255, 255, 0.1242) 74.67%
-    );
-    backdrop-filter: blur(70px);
-    box-shadow: 0px 1.2px 29.92px 0px #452A7C1A, 10px 10px 29px 0px #FFFFFF40 inset;
+    ); */
+    /* backdrop-filter: blur(10px); */
+    /* box-shadow: 0px 1.2px 29.92px 0px #452A7C1A, 10px 10px 29px 0px #FFFFFF40 inset; */
   }
 
 .team-card:hover {
   transform: scale(1.01);
-  box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.4), inset 0px 0px 15px rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 4px rgba(255, 255, 255, 0.132), inset 0px 0px 15px rgba(255, 255, 255, 0.4);
 }
 
-.team-card img {
-  width: 150px; /* Increase the width */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 10px; /* Slightly rounded edges */
-  margin-bottom: 3px;
+
+
+.team-card h3 {
+  margin: 3px 0;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 300;
+  order: 1; /* Ensure the text is on the left side */
 }
 
-/* .team-card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 220px;
-  width: 80%;
-  padding: 15px;
-  border-radius: 25px;
-  text-align: center;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  background: linear-gradient(
-    86.16deg,
-    rgba(255, 255, 255, 0.2) 11.14%,
-    rgba(255, 255, 255, 0.035) 113.29%
-  );
-  border: 1px solid;
-  border-image-source: linear-gradient(
-    155.31deg,
-    rgba(255, 255, 255, 0.115) 12.33%,
-    rgba(255, 255, 255, 0) 34.31%,
-    rgba(255, 255, 255, 0) 52.66%,
-    rgba(255, 255, 255, 0.1242) 74.67%
-  );
-  backdrop-filter: blur(70px);
-  box-shadow: 0px 1.2px 29.92px 0px #452A7C1A, 10px 10px 29px 0px #FFFFFF40 inset;
-} */
+.team-card p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+  order: 1; /* Ensure the text is on the left side */
+}
+
 
 .team-card img {
   width: 150px;
@@ -178,83 +164,6 @@
   border-radius: 10px;
   margin-bottom: 3px;
   order: 2; /* Position the image on the right side */
-}
-
-.team-card h3 {
-  margin: 3px 0;
-  font-size: 20px;
-  color: #fff;
-  font-weight: 300;
-  order: 1; /* Ensure the text is on the left side */
-}
-
-.team-card p {
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 10px;
-  order: 1; /* Ensure the text is on the left side */
-}
-/* .team-card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 220px;
-  width: 100%;
-  padding: 15px;
-  border-radius: 25px;
-  text-align: center;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  background: linear-gradient(
-    86.16deg,
-    rgba(255, 255, 255, 0.2) 11.14%,
-    rgba(255, 255, 255, 0.035) 113.29%
-  );
-  border: 1px solid;
-  border-image-source: linear-gradient(
-    155.31deg,
-    rgba(255, 255, 255, 0.115) 12.33%,
-    rgba(255, 255, 255, 0) 34.31%,
-    rgba(255, 255, 255, 0) 52.66%,
-    rgba(255, 255, 255, 0.1242) 74.67%
-  );
-  backdrop-filter: blur(70px);
-  box-shadow: 0px 1.2px 29.92px 0px #452A7C1A, 10px 10px 29px 0px #FFFFFF40 inset;
-} */
-
-.team-card img {
-  width: 150px;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 3px;
-  order: 2; /* Position the image on the right side */
-}
-
-.team-card h3 {
-  margin: 3px 0;
-  font-size: 20px;
-  color: #fff;
-  font-weight: 300;
-  order: 1; /* Ensure the text is on the left side */
-}
-
-.team-card p {
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 10px;
-  order: 1; /* Ensure the text is on the left side */
-}
-
-.team-card h3 {
-  margin: 3px 0;
-  font-size: 20px;
-  color: #fff;
-  font-weight: 300;
-}
-
-.team-card p {
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 10px;
 }
 
 .social-links {
@@ -364,10 +273,18 @@
 }
 
 @media (max-width: 480px) {
+
   .team-category h2 {
     font-size: 20px;
   }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Maximum of 3 columns */
+    gap: 20px;
+}
   .team-card {
+    
     height: 160px;
     padding: 10px;
   }
