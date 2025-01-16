@@ -6,8 +6,8 @@
     padding: 1rem 2rem;
     text-align: center;
     background: transparent;
-    margin-top: -3rem;
-    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
   }
   
   .query-title {
@@ -77,6 +77,7 @@
   }
   
   @media (max-width: 768px) {
+    
     .query-title {
       font-size: 2.5rem;
     }
