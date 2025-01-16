@@ -217,6 +217,7 @@
   .filter-dropdown {
     font-size: 14px;
     padding: 8px 15px;
+    border-radius: 23px;
   }
   .team-category h2 {
     font-size: 22px;
@@ -242,8 +243,30 @@
     height: 16px;
   }
 }
-
 @media (max-width: 480px) {
+  .filter-dropdown {
+    width: 40px; /* Compact width for smaller screens */
+    padding: 8px;
+    appearance: none; /* Remove default appearance */
+    background: rgba(255, 255, 255, 0.1) 
+      url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://cdn.pixabay.com/photo/2024/12/06/12/23/ai-generated-9248643_1280.jpg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E") no-repeat;
+    background-position: center;
+    border-radius: 23px;
+    color: white; /* Text color */
+    border: none; /* Clean border style */
+    font-size: 14px;
+  }
+
+  .filter-dropdown option {
+    font-size: 14px;
+    background: #262136; /* Matches card background */
+    color: white;
+  }
+
+  /* Hide the "Filter by Year" placeholder */
+  .filter-dropdown option[value=""] {
+    display: none;
+  }
 
   .team-category h2 {
     font-size: 20px;
@@ -251,27 +274,32 @@
 
   .team-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Maximum of 3 columns */
+    grid-template-columns: repeat(2, 1fr); /* Adjust grid to fit two columns */
     gap: 20px;
-}
+  }
+
   .team-card {
-    
     height: 160px;
     padding: 10px;
   }
+
   .team-card img {
     width: 80px;
     height: 80px;
   }
+
   .team-card h3 {
     font-size: 18px;
   }
+
   .team-card p {
     font-size: 16px;
   }
+
   .social-links {
     gap: 5px;
   }
+
   .social-links a img {
     width: 14px;
     height: 14px;
