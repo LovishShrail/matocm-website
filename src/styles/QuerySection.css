@@ -87,7 +87,7 @@
     }
   }
 
-  @media (max-width: 420px){
+  @media (max-width: 500px){
     .query-section {
         display: flex;
         flex-direction: column;

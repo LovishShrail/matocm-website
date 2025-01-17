@@ -134,7 +134,7 @@
   
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
   .about-us-section {
     margin-top: 20px;
     display: flex;
