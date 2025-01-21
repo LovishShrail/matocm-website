@@ -111,7 +111,7 @@ const StyledWrapper = styled.div`
   }
     @media (max-width : 500px){
     .container{
-    width:169px;}
+    width:159px;}
     }
 
   .container:active {
