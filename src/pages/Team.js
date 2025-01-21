@@ -4,7 +4,8 @@ import "../styles/Team.css";
 // import teamData from "../data/data"; // Import the team data
 // console.log("Loaded teamData:", teamData);
 
-import teamData from '../data/teamData'; // Adjust the path as needed
+import teamData from '../data/teamData'; 
+
 
 
 const Team = () => {
@@ -61,3 +62,19 @@ const Team = () => {
 };
 
 export default Team;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
