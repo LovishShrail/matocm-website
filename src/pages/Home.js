@@ -63,26 +63,6 @@ const Home = () => {
         animate="visible"
         style={{ y: backgroundY }}
       >
-        {/* <motion.div className="team-title" variants={fadeInUp}>
-          <div className="matcom" style={gradientAnimation}>
-            Team MATCOM
-          </div>
-          <motion.div className="nit-hamirpur" variants={fadeInUp} transition={{ delay: 0.2 }}>
-            NIT Hamirpur
-          </motion.div>
-          <motion.div className="description" variants={fadeInUp} transition={{ delay: 0.4 }}>
-            A technical initiative associated with The Department of Mathematics and Scientific Computing
-          </motion.div>
-        </motion.div>
-
-        <motion.div
-          className="image-container"
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-        >
-          <img src={Png} alt="png-image" />
-        </motion.div> */}
 
 
         <motion.div variants={fadeInUp}>

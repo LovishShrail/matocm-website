@@ -4,122 +4,8 @@ import "../styles/Team.css";
 // import teamData from "../data/data"; // Import the team data
 // console.log("Loaded teamData:", teamData);
 
-import member1 from '../data/Picture.png'; // Adjust the path as needed
-const teamData = [
-  {
-    title: "Previous Club Coordinators",
-    members: [
-      {
-        name: 'Aditya',
-        image: member1,
-        links: { instagram: "#", linkedin: "#" },
-      },
-      {
-        name: "Himanshu",
-        image: member1,
-        links: { instagram: "#", linkedin: "#" },
-      },
-      // Add more coordinators
-    ],
-  },
-  {
-    title: "Pre-Final Year",
-    members: [
-      {
-        name: "Krishna Narzary",
-        image: member1,
-        links: { instagram: "#", linkedin: "#" },
-      },
-      // Add more pre-final year members
-    ],
-  },
-  {
-    title: "2nd Year",
-    members: [
-      {
-        name: "Aditya Sangal",
-        image: member1,
-        links: {
-          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
-          linkedin: "#",
-        },
-      },
-      {
-        name: "Aditya Sangal",
-        image: member1,
-        links: {
-          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
-          linkedin: "#",
-        },
-      },
-      {
-        name: "Aditya Sangal",
-        image: member1,
-        links: {
-          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
-          linkedin: "#",
-        },
-      },
-      {
-        name: "Aditya Sangal",
-        image: member1,
-        links: {
-          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
-          linkedin: "#",
-        },
-      },
-      {
-        name: "Aditya Sangal",
-        image: member1,
-        links: {
-          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
-          linkedin: "#",
-        },
-      },
-      {
-        name: "Aditya Sangal",
-        image: member1,
-        links: {
-          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
-          linkedin: "#",
-        },
-      },
-      {
-        name: "Aditya Sangal",
-        image: member1,
-        links: {
-          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
-          linkedin: "#",
-        },
-      },
-      {
-        name: "Aditya Sangal",
-        image: member1,
-        links: {
-          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
-          linkedin: "#",
-        },
-      },
-      {
-        name: "Aditya Sangal",
-        image: member1,
-        links: {
-          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
-          linkedin: "#",
-        },
-      },
-      {
-        name: "Aditya Sangal",
-        image: member1,
-        links: {
-          instagram: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1",
-          linkedin: "#",
-        },
-      },
-      // Add more 2nd-year members
-    ],
-  },
-];
+import teamData from '../data/teamData'; // Adjust the path as needed
+
 
 const Team = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -142,7 +28,7 @@ const Team = () => {
           className="filter-dropdown"
           onChange={(e) => setFilterYear(e.target.value)}
         >
-          <option value="">Filter by Year</option>
+            <option value="">Filter by Year</option>
           {teamData.map((category, index) => (
             <option key={index} value={category.title}>
               {category.title}
