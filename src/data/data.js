@@ -5,7 +5,7 @@ const teamData = [
     title: "Previous Club Coordinators",
     members: [
       {
-        name: 'Aditya',
+        name: 'Prince Khandelwal',
         image: member1,
         links: { instagram: "#", linkedin: "#" },
       },
