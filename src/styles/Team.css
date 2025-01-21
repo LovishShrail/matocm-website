@@ -57,7 +57,7 @@
   display: flex;
   gap: 0px;
   align-items: center;
-  color:
+  color:#0097a7
 }
 
 
@@ -187,10 +187,7 @@
     padding: 10px;
 
   }
-  .team-card img {
-   
-   
-  }
+ 
   .team-card h3 {
     font-size: 22px;
     margin: 2px 0;
@@ -231,9 +228,7 @@
   
     padding-top: 0%;
   }
-  .team-card img {
   
-  }
   .team-card h3 {
     font-size: 20px;
   }
@@ -286,9 +281,7 @@
     padding: 10px;
   }
 
-  .team-card img {
   
-  }
 
   .team-card h3 {
     font-size: 18px;
