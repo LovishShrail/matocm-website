@@ -260,7 +260,7 @@
 
     .matcom {
         font-size: 5.0rem; 
-        padding-top: 100px;
+        padding-top: 90px;
     }
 
     .nit-hamirpur {
@@ -278,7 +278,7 @@
       display: flex;
       justify-content: center;
       align-items: center; 
-      margin-top: 10px;
+      margin-top: -10px;
       z-index:1;
       
   }

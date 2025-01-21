@@ -8,11 +8,11 @@ const AboutSection = () => {
     <>
     <div className="about-us-section">
 
-      <div className="vertical-text">
+      {/* <div className="vertical-text">
         <p>NIMBUS </p>
         <p>MATCOM</p>
         <p>TECH</p>
-      </div>
+      </div> */}
       <div className="logo-section">
         <img src={logo} alt="MATCOM Logo" />
 
