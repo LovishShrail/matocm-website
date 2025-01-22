@@ -28,7 +28,7 @@ const AboutSection = () => {
             creativity, and innovation that inspires our members to push the boundaries of
             knowledge and make groundbreaking discoveries.
             <br></br>
-
+            <br></br>
             One of the core missions of our society is to promote mathematical and scientific
             literacy among the general public. We believe that everyone should have access to
             the knowledge and tools needed to understand and engage with these fields, and
