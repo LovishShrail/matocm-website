@@ -84,6 +84,7 @@
 
 /* Project Category Styles */
 .project-category {
+  margin-top: 1.5rem;
   margin-bottom: 50px;
   /* padding-top: 3.5rem */
 }
@@ -91,14 +92,14 @@
 .project-category h2 {
   margin-bottom: 20px;
   text-align: center;
-  font-size: 28px;
+  font-size: 2.5rem;
   color: #f1f1f1;
 }
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 45px;
 }
 
 /* Project Card Styles */
@@ -212,37 +213,35 @@
 /* Year Heading Styles */
 .year-heading {
   color: #ffffff;
-  font-size: 18px;
-  font-weight: 400;
-  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding: 2px 20px;
   border-radius: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   backdrop-filter: blur(70px);
-  border: 1px solid;
-  border-image-source: linear-gradient(
-    155.31deg,
-    rgba(255, 255, 255, 0.115) 12.33%,
-    rgba(255, 255, 255, 0) 34.31%,
-    rgba(255, 255, 255, 0) 52.66%,
-    rgba(255, 255, 255, 0.1242) 74.67%
-  );
-  box-shadow: 0px 1.2px 29.92px 0px #452a7c1a, 10px 10px 29px 0px #ffffff40 inset;
+  border: 1px solid rgb(76, 73, 73);
+  
+  
 }
 
 /* RESPONSIVE DESIGN */
 @media (min-width: 768px) {
 
   .project-section {
-    padding-top: 4.5rem;
+    padding-top: 6.5rem;
   }
   .project-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Maximum of 3 columns */
-    gap: 20px;
+    grid-template-columns: repeat(1, 1fr); /* Maximum of 3 columns */
+    gap: 35px;
 }
   .project-card {
     height: 200px;
     padding: 10px;
+    
   }
   .project-card img {
     width: 100px;
@@ -309,11 +308,28 @@
 
 @media (max-width: 500px) {
 
+  .year-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+  }
+
   .project-section{
     padding-top: 4rem;
   }
+
+  .project-grid {
+    grid-template-columns: 1fr; /* Single column */
+  }
   .project-category h2 {
     font-size: 20px;
+    margin-bottom: -10px;
   }
   .project-card {
     height: 160px;

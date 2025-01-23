@@ -18,7 +18,7 @@ function App() {
       setLoading(true);
       const timer = setTimeout(() => {
         setLoading(false);
-      }, 1000); // Simulate a delay
+      }, 1500); // Simulate a delay
       return () => clearTimeout(timer);
     } else {
       // If the current route is About Us or there's a hash change (no full route change), don't show the loader
