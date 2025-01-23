@@ -1,7 +1,15 @@
-import React from "react";
+import React,  { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const Hero = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true); // Ensures it runs only on the client side
+  }, []);
+
+  if (!isClient) return null;
+  
   return (
     <section className="hero">
       <div className="snow" style={{
