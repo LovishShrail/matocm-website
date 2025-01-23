@@ -98,7 +98,6 @@
 }
 
 .matcom {
-    margin-top: 40px;
     padding-top: 40px;
     font-family: 'Copperplate', 'Copperplate Gothic Light';
     font-size: 3.5rem;
@@ -256,36 +255,44 @@
         }
       }
       
-    
+      .hero {
+        display: block; /* Ensure it is visible by default */
+        z-index: -2;
+
+      }
 
     .matcom {
+        margin-top: -35rem;
         font-size: 5.0rem; 
-        padding-top: 90px;
+        padding-top: 95px;
+        margin-bottom: -25px;
     }
 
     .nit-hamirpur {
         font-size: 4rem;
-        margin-bottom: 0.5rem; 
+        margin-bottom: -0.3rem; 
     }
 
     .description {
+      position: relative;
         font-size: 1.2rem; 
         max-width: 50%;
-        z-index: 3;
+        z-index: 100;
     }
 
     .image-container {
+      position: relative;
       display: flex;
       justify-content: center;
       align-items: center; 
-      margin-top: -10px;
-      z-index:1;
+      margin-top: -30px;
+      z-index:0;
       
   }
   
   .image-container img {
-      max-width: 100%; 
-      height: 27rem;
+      max-width: 97%; 
+      height: 25rem;
       width:1800px;
   }
 }
@@ -310,9 +317,13 @@
     overflow: hidden;
 }
 
+
+.hero {
+  display: none; /* Hide the div on screens smaller than 768px */
+}
     .matcom {
         font-size: 2.5rem;
-        padding-top: 185px;
+        padding-top: 17rem;
     }
 
     .nit-hamirpur {
@@ -331,7 +342,7 @@
         justify-content: center;
         align-items: center; 
         margin: -380px 0; 
-        margin-bottom: 6rem;
+        margin-bottom: 8rem;
     }
     
     .image-container img {

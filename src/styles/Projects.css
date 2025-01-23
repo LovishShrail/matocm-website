@@ -13,10 +13,12 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  height: 100%;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
   min-height: 100vh;
+  height: 100%;
 }
 
 /* Project Header Styles */
@@ -41,7 +43,7 @@
 .search-bar {
   flex-grow: 1;
   padding: 10px 15px;
-  border-radius: 30px;
+  border-radius: 15px;
   border: none;
   outline: none;
   background: rgba(255, 255, 255, 0.1);
@@ -58,7 +60,7 @@
 
 .filter-dropdown {
   padding: 10px 15px;
-  border-radius: 3px;
+  border-radius: 10px;
   border: none;
   outline: none;
   background: rgba(255, 255, 255, 0.1);

@@ -64,27 +64,6 @@
     min-height: 30vh; 
   }
   
-  .vertical-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 0;
-    top: 154%;
-    transform: translateY(50%);
-  }
-  
-  .vertical-text p {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    margin: 12px;
-    font-size: 0.9rem;
-    color: white;
-    margin-left: 65px;
-  
-  }
-  
   
   .logo-section {
     display: flex;

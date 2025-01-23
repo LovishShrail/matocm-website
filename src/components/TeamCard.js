@@ -47,6 +47,20 @@ const Card = ({ name, image, links }) => {
             <div className="tracker tr-7" />
             <div className="tracker tr-8" />
             <div className="tracker tr-9" />
+            <div className="tracker tr-10" />
+            <div className="tracker tr-11" />
+            <div className="tracker tr-12" />
+            <div className="tracker tr-13" />
+            <div className="tracker tr-14" />
+            <div className="tracker tr-15" />
+            <div className="tracker tr-16" />
+            <div className="tracker tr-17" />
+            <div className="tracker tr-18" />
+            <div className="tracker tr-19" />
+            <div className="tracker tr-20" />
+            <div className="tracker tr-21" />
+            <div className="tracker tr-22" />
+            <div className="tracker tr-23" />
             <div id="card">
               <div className="card-content">
                 <div className="card-glare" />
@@ -76,6 +90,7 @@ const Card = ({ name, image, links }) => {
                       href={links.instagram}
                       target="_blank"
                       rel="noopener noreferrer"
+                      
                     >
                       <img src={instagram} alt="LinkedIn" />
                     </a>
@@ -188,6 +203,7 @@ const StyledWrapper = styled.div`
     padding-right: 18%;
     display: flex;
     text-shadow: 0 0 10px rgba(92, 103, 255, 0.5), 0 0 20px rgba(92, 103, 255, 0.3);
+    z-index:100;
   }
 
   .subtitle {
@@ -261,6 +277,7 @@ const StyledWrapper = styled.div`
   .tracker:hover ~ #card .title {
     opacity: 1;
     transform: translateY(-10px);
+    z-index:400;
   }
 
   .tracker:hover ~ #card .glowing-elements div {
@@ -353,8 +370,10 @@ const StyledWrapper = styled.div`
     height: 100%;
   }
 
+
   .tracker:hover {
     cursor: pointer;
+    //  pointer-events: none;
   }
 
   .tracker:hover ~ #card #prompt {
