@@ -45,9 +45,7 @@
 
 .about-us-content p {
   font-family: 'Calibri Light', Calibri, sans-serif;
-  font-weight: 100;
-  /* Ultra-light */
-  font-weight: 100;
+  font-weight: 700;
   font-size: 0.7rem;
   line-height: 1.6;
   margin-bottom: 1rem; 
@@ -126,9 +124,7 @@
   
   .about-us-content p {
     font-family: 'Calibri Light', Calibri, sans-serif;
-    font-weight: 100;
-    /* Ultra-light */
-    font-weight: 100;
+    font-weight: 600;
     font-size: 1.4rem;
     line-height: 1.3;
   }
@@ -178,8 +174,7 @@
 
   .about-us-content p {
     font-family: 'Calibri Light', Calibri, sans-serif;
-    font-weight: 100;
-    font-weight: 100;
+    font-weight: 500;
     text-align: left;
     font-size: 0.95rem;
     line-height: 1.3;

@@ -1,106 +1,116 @@
-// import React, { useState } from "react";
-// import "../styles/Team.css";
- import linkedin from "../assets/Social icon.png";
- import instagram from "../assets/Component 6.png";
+import linkedin from "../assets/Social icon.png";
+import instagram from "../assets/Component 6.png";
+import React from "react";
+import styled from "styled-components";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
-// const TeamCard = ({ name, image, links }) => {
-//   const [isHovered, setIsHovered] = useState(false);
+const Card = ({ name, image, links }) => {
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Animation triggers only once
+    threshold: 0.2, // Triggers when 20% of the card is visible
+  });
 
-//   return (
-//     <div
-//       className="team-card"
-//       onMouseEnter={() => setIsHovered(true)}
-//       onMouseLeave={() => setIsHovered(false)}
-//     >
-//       <img src={image} alt={name} />
-//       <h3>
-//         {isHovered && (links.instagram || links.linkedin) ? (
-//           <div className="social-links">
-//             {links.instagram && (
-//               <a href={links.instagram} target="_blank" rel="noopener noreferrer">
-//                 <img src={instagram} alt="Instagram" />
-//               </a>
-//             )}
-            // {links.linkedin && (
-            //   <a href={links.linkedin} target="_blank" rel="noopener noreferrer">
-            //     <img src={linkedin} alt="LinkedIn" />
-            //   </a>
-            // )}
-//           </div>
-//         ) : (
-//           name
-//         )}
-//       </h3>
-//     </div>
-//   );
-// };
+  const variants = {
+    hidden: {
+      opacity: 0,
+      y: 50,
+      scale: 0.9,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      scale: 1,
+      transition: {
+        duration: 0.8,
+        ease: "easeInOut",
+      },
+    },
+  };
 
-
-
-
-
-// export default TeamCard;
-import React from 'react';
-import styled from 'styled-components';
-
-const Card = ({name,image,links}) => {
   return (
     <StyledWrapper>
-      <div className="container noselect">
-        <div className="canvas">
-          <div className="tracker tr-1" />
-          <div className="tracker tr-2" />
-          <div className="tracker tr-3" />
-          <div className="tracker tr-4" />
-          <div className="tracker tr-5" />
-          <div className="tracker tr-6" />
-          <div className="tracker tr-7" />
-          <div className="tracker tr-8" />
-          <div className="tracker tr-9" />
-          <div id="card">
-            <div className="card-content">
-              <div className="card-glare" />
-              <div className="cyber-lines">
-                <span /><span /><span /><span />
-              </div>
-              <p id="prompt"> <img src={image} alt={name} /></p>
-              <div className="title">
+      <motion.div
+        ref={ref}
+        initial="hidden"
+        animate={inView ? "visible" : "hidden"}
+        variants={variants}
+      >
+        <div className="container noselect">
+          <div className="canvas">
+            <div className="tracker tr-1" />
+            <div className="tracker tr-2" />
+            <div className="tracker tr-3" />
+            <div className="tracker tr-4" />
+            <div className="tracker tr-5" />
+            <div className="tracker tr-6" />
+            <div className="tracker tr-7" />
+            <div className="tracker tr-8" />
+            <div className="tracker tr-9" />
+            <div id="card">
+              <div className="card-content">
+                <div className="card-glare" />
+                <div className="cyber-lines">
+                  <span />
+                  <span />
+                  <span />
+                  <span />
+                </div>
+                <p id="prompt">
+                  {" "}
+                  <img src={image} alt={name} />
+                </p>
+                <div className="title">
+                  {links.linkedin && (
+                    <a
+                      href={links.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={linkedin} alt="LinkedIn" />
+                    </a>
+                  )}
 
-              {links.linkedin && (
-              <a href={links.linkedin} target="_blank" rel="noopener noreferrer">
-                <img src={linkedin} alt="LinkedIn" />
-              </a>
-            )}
-
-
-{links.instagram && (
-              <a href={links.instagram} target="_blank" rel="noopener noreferrer">
-                <img src={instagram} alt="LinkedIn" />
-              </a>
-            )}</div>
-              <div className="glowing-elements">
-                <div className="glow-1" />
-                <div className="glow-2" />
-                <div className="glow-3" />
+                  {links.instagram && (
+                    <a
+                      href={links.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={instagram} alt="LinkedIn" />
+                    </a>
+                  )}
+                </div>
+                <div className="glowing-elements">
+                  <div className="glow-1" />
+                  <div className="glow-2" />
+                  <div className="glow-3" />
+                </div>
+                <div className="subtitle">
+                  <span className="highlight">{name}</span>
+                </div>
+                <div className="card-particles">
+                  <span />
+                  <span />
+                  <span /> <span />
+                  <span />
+                  <span />
+                </div>
+                <div className="corner-elements">
+                  <span />
+                  <span />
+                  <span />
+                  <span />
+                </div>
+                <div className="scan-line" />
               </div>
-              <div className="subtitle">
-                {/* <span>INTERACTIVE</span> */}
-                <span className="highlight">{name}</span>
-              </div>
-              <div className="card-particles">
-                <span /><span /><span /> <span /><span /><span />
-              </div>
-              <div className="corner-elements">
-                <span /><span /><span /><span />
-              </div>
-              <div className="scan-line" />
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </StyledWrapper>
   );
-}
+};
 
 const StyledWrapper = styled.div`
   .container {
