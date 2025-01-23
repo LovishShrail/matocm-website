@@ -3,12 +3,16 @@ import { motion } from 'framer-motion';
 import Png2 from '../assets/bg 3.png';
 import Png from '../assets/bg.png';
 import HackerText from '../components/HackerText.js';
+import Hero from '../components/Hero.js';
 
 const AnimatedTitle = () => {
   return (
     <>
-      {/* <Hero/> */}
     <div className="team-title">
+      <div className='hero'>
+      <Hero/>
+
+      </div>
       <div className="matcom" style={{
         background: "linear-gradient(-45deg, #ff69b4, #e890e8, #b19cd9,rgb(90, 27, 216), #8a2be2)",
         backgroundSize: "200% 200%",

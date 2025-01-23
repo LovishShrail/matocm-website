@@ -7,7 +7,7 @@ const teamData = [
         {
           name: 'Prince Khandelwal',
           image: member1,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "https://www.instagram.com/ojaswi_jaswal?igsh=ZmY3ZWg5bWV3MG13", linkedin: "#" },
         },
         {
           name: "Himanshu",

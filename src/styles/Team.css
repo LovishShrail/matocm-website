@@ -44,7 +44,7 @@
 .search-bar {
   flex-grow: 1;
   padding: 10px 15px;
-  border-radius: 30px;
+  border-radius: 10px;
   border: none;
   outline: none;
   background: rgba(255, 255, 255, 0.1);
