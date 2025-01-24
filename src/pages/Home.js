@@ -6,6 +6,7 @@ import FAQSection from '../components/Faq';
 // import Png from '../assets/bg 3.png';
 import QuerySection from '../components/QuerySection.js';
 import AnimatedTitle from '../components/AnimatedTitle.js';
+// import Hero from '../components/Hero.js';
 
 const Home = () => {
   const { scrollYProgress } = useScroll();
@@ -21,14 +22,7 @@ const Home = () => {
     }
   };
 
-  // const gradientAnimation = {
-  //   background: "linear-gradient(-45deg, #ff69b4, #e890e8, #b19cd9, #9370db, #8a2be2)",
-  //   backgroundSize: "200% 200%",
-  //   animation: "gradient 15s ease infinite",
-  //   WebkitBackgroundClip: "text",
-  //   WebkitTextFillColor: "transparent",
-  //   backgroundClip: "text"
-  // };
+
 
 
   useEffect(() => {
@@ -45,6 +39,8 @@ const Home = () => {
 
   return (
     <div className="background-section">
+
+       
       <div className="animated-background" />
 
       <div className="particles">
@@ -63,26 +59,6 @@ const Home = () => {
         animate="visible"
         style={{ y: backgroundY }}
       >
-        {/* <motion.div className="team-title" variants={fadeInUp}>
-          <div className="matcom" style={gradientAnimation}>
-            Team MATCOM
-          </div>
-          <motion.div className="nit-hamirpur" variants={fadeInUp} transition={{ delay: 0.2 }}>
-            NIT Hamirpur
-          </motion.div>
-          <motion.div className="description" variants={fadeInUp} transition={{ delay: 0.4 }}>
-            A technical initiative associated with The Department of Mathematics and Scientific Computing
-          </motion.div>
-        </motion.div>
-
-        <motion.div
-          className="image-container"
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-        >
-          <img src={Png} alt="png-image" />
-        </motion.div> */}
 
 
         <motion.div variants={fadeInUp}>

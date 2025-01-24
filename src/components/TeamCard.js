@@ -1,5 +1,6 @@
 
 
+
 import React from 'react';
 import styled from 'styled-components';
 
@@ -46,6 +47,7 @@ const Card = ({ name, image, links }) => {
 // You'll need to add the StyledWrapper styled-component definition here
 // This was not included in the original code snippet
 
+
 const StyledWrapper = styled.div`
   .card {
     position: relative;
@@ -57,11 +59,13 @@ const StyledWrapper = styled.div`
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: all 1s ease-in-out;
   }
+
     @media (max-width: 500px) {
     .card {
     width: 156px;
     height: 156px;
     }
+
     }
 
   .background {
@@ -79,10 +83,12 @@ const StyledWrapper = styled.div`
   }
    
 
+
   .logo .logo-svg {
     fill: white;
     width: 30px;
     height: 30px;
+
   }
 
   .icon {
@@ -130,8 +136,10 @@ const StyledWrapper = styled.div`
     left: -70%;
   }
 
+
   .box1::before {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #ff53d4 60%, #62c2fe 90%);
+
   }
 
   .box1:hover::before {
@@ -158,8 +166,10 @@ const StyledWrapper = styled.div`
     opacity: 1;
   }
 
+
   .box2:hover .icon .svg {
     filter: drop-shadow(0 0 5px white);
+
   }
 
   .box3 {

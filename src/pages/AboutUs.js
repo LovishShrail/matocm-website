@@ -8,11 +8,11 @@ const AboutSection = () => {
     <>
     <div className="about-us-section">
 
-      <div className="vertical-text">
+      {/* <div className="vertical-text">
         <p>NIMBUS </p>
         <p>MATCOM</p>
         <p>TECH</p>
-      </div>
+      </div> */}
       <div className="logo-section">
         <img src={logo} alt="MATCOM Logo" />
 
@@ -28,7 +28,7 @@ const AboutSection = () => {
             creativity, and innovation that inspires our members to push the boundaries of
             knowledge and make groundbreaking discoveries.
             <br></br>
-
+            <br></br>
             One of the core missions of our society is to promote mathematical and scientific
             literacy among the general public. We believe that everyone should have access to
             the knowledge and tools needed to understand and engage with these fields, and
