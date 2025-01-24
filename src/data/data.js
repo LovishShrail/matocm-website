@@ -14,6 +14,56 @@ const teamData = [
         image: member1,
         links: { instagram: "#", linkedin: "#" },
       },
+      {
+        name: "Himanshu",
+        image: member1,
+        links: { instagram: "#", linkedin: "#" },
+      },
+      {
+        name: "Himanshu",
+        image: member1,
+        links: { instagram: "#", linkedin: "#" },
+      },
+      {
+        name: "Himanshu",
+        image: member1,
+        links: { instagram: "#", linkedin: "#" },
+      },
+      {
+        name: "Himanshu",
+        image: member1,
+        links: { instagram: "#", linkedin: "#" },
+      },
+      {
+        name: "Himanshu",
+        image: member1,
+        links: { instagram: "#", linkedin: "#" },
+      },
+      {
+        name: "Himanshu",
+        image: member1,
+        links: { instagram: "#", linkedin: "#" },
+      },
+      {
+        name: "Himanshu",
+        image: member1,
+        links: { instagram: "#", linkedin: "#" },
+      },
+      {
+        name: "Himanshu",
+        image: member1,
+        links: { instagram: "#", linkedin: "#" },
+      },
+      {
+        name: "Himanshu",
+        image: member1,
+        links: { instagram: "#", linkedin: "#" },
+      },
+      {
+        name: "Himanshu",
+        image: member1,
+        links: { instagram: "#", linkedin: "#" },
+      },
       // Add more coordinators
     ],
   },
