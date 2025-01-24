@@ -28,11 +28,11 @@ function App() {
 
   return (
     <>
+      <Navbar />
       {loading ? (
         <Loader />
       ) : (
         <div>
-          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/team" element={<Team />} />
