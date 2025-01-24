@@ -5,12 +5,10 @@ const teamData = [
       title: "Previous Club Coordinators",
       members: [
         {
-          name: 'Prince Khandelwal',
+          name: 'Prince',
           image: member1,
 
-       
-
-         links: { instagram: "https://www.instagram.com/ojaswi_jaswal?igsh=ZmY3ZWg5bWV3MG13", linkedin: "https://www.instagram.com/ojaswi_jaswal?igsh=ZmY3ZWg5bWV3MG13" },
+          links: { instagram: "https://www.instagram.com/prince_khandelwal04?igsh=NWl5aDVlOW5hZDR1", linkedin: "#" },
 
         },
         {
@@ -25,7 +23,7 @@ const teamData = [
       title: "Pre-Final Year",
       members: [
         {
-          name: "Krishna Narzary",
+          name: "Krishna",
           image: member1,
           links: { instagram: "#", linkedin: "#" },
         },
