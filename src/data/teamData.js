@@ -8,13 +8,14 @@ const teamData = [
           name: 'Prince',
           image: member1,
 
+
           links: { instagram: "https://www.instagram.com/prince_khandelwal04?igsh=NWl5aDVlOW5hZDR1", linkedin: "https://www.linkedin.com/in/prince-khandelwal-06147a1b1" },
 
         },
         {
           name: "Himanshu",
           image: member1,
-          links: { instagram: "https://www.instagram.com/ojaswi_jaswal?igsh=ZmY3ZWg5bWV3MG13", linkedin: "https://www.instagram.com/ojaswi_jaswal?igsh=ZmY3ZWg5bWV3MG13" },
+          links: { instagram: "#", linkedin: "#" },
         },
         // Add more coordinators
       ],

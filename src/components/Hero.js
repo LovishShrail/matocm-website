@@ -1,3 +1,4 @@
+
 import React,  { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
@@ -10,6 +11,7 @@ const Hero = () => {
 
   if (!isClient) return null;
   
+
   return (
     <section className="hero">
       <div className="snow" style={{
