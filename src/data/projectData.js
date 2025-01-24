@@ -1,3 +1,4 @@
+
 import image1 from "../assets/image1.png";
 import image2 from "../assets/image2.png";
 import image3 from "../assets/image3.png";
@@ -5,6 +6,7 @@ import image4 from "../assets/image4.png";
 import image5 from "../assets/image5.png";
 import image6 from "../assets/image6.png";
 import image7 from "../assets/image7.png";
+
 
 
 import member1 from '../data/Picture.png'; // Adjust the path as needed
@@ -16,6 +18,7 @@ const projectData = [
       {
         name: 'Algo Trading Bot',
         image: image1,
+
         links: { instagram: "#", linkedin: "#" },
         description: "AlgoBot is an advanced trading system that automates buy and sell decisions using ML, sentiment analysis, and risk management strategies. It adapts to real-time market trends, integrates psychological factors like fear and greed, and ensures a secure, user-friendly interface."
       },
@@ -54,6 +57,7 @@ const projectData = [
         image: image7,
         links: { instagram: "#", linkedin: "#" },
         description: "A drone-based system designed to monitor forests for early detection of fires using high-resolution cameras, infrared sensors, and gas detectors. It leverages machine learning to predict fire risks and transmits real-time data to a ground station, alerting authorities with GPS coordinates for swift action"
+
       },
       
       // Add more projects

@@ -1,0 +1,17 @@
+/* styles.css */
+@keyframes snow-fall {
+    0% {
+      transform: translateY(200px);
+    }
+    100% {
+      transform: translateY(-400px);
+    }
+  
+  }
+  
+  .snowflake {
+    position: absolute;
+    pointer-events: none; /* Ensure snow doesn't block interactions */
+    z-index: -1; /* Push snow behind other content */
+    animation: snow-fall linear infinite;
+  }
