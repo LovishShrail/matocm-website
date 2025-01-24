@@ -6,6 +6,7 @@ import FAQSection from '../components/Faq';
 // import Png from '../assets/bg 3.png';
 import QuerySection from '../components/QuerySection.js';
 import AnimatedTitle from '../components/AnimatedTitle.js';
+import Footer from '../components/Footer.js';
 // import Hero from '../components/Hero.js';
 
 const Home = () => {
@@ -102,12 +103,7 @@ const Home = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
       >
-        <div className='footer-content1'>
-          © MATCOM | NIMBUS 2025
-        </div>
-        <div className='footer-content2'>
-          Designed by MATCOM ❤️
-        </div>
+        <Footer/>
       </motion.footer>
     </div>
   );

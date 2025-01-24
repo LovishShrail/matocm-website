@@ -6,6 +6,7 @@ import HackerText from "../components/HackerText";
 // console.log("Loaded teamData:", teamData);
 
 import teamData from '../data/teamData';
+import Footer from "../components/Footer";
 
 
 
@@ -65,6 +66,12 @@ const Team = () => {
           </div>
         </div>
       ))}
+
+<div className="footer">
+
+<Footer/>
+
+  </div>
     </div>
   );
 };
