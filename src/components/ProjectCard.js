@@ -47,20 +47,20 @@ const Card = ({ name, image, description, links }) => {
       >
         <div className="card-container">
           <div className="card">
-          <div
-  className="front-content"
-  data-name={name}
-  style={{
-    backgroundImage: `url(${image})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-  }}
->
-  <p>{name}</p>
-</div>
+            <div
+              className="front-content"
+              data-name={name}
+              style={{
+                backgroundImage: `url(${image})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+              }}
+            >
+              <p>{name}</p>
+            </div>
             <div className="content">
-              <p className="heading"><HackerText text = {name} /></p>
+              <p className="heading"><HackerText text={name} /></p>
               <p>{description}</p>
             </div>
           </div>
@@ -68,7 +68,7 @@ const Card = ({ name, image, description, links }) => {
       </motion.div>
     </StyledWrapper>
   );
-};const StyledWrapper = styled.div`
+}; const StyledWrapper = styled.div`
 .cards-wrapper {
   display: flex;
   justify-content: center;

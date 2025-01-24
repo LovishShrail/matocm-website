@@ -3,9 +3,11 @@ import ProjectCard from "../components/ProjectCard";
 import "../styles/Projects.css";
 import projectData from "../data/projectData";
 import HackerText from "../components/HackerText";
+import Footer from "../components/Footer";
 
 const Project = () => {
   return (
+    <>
     <div className="project-section">
       {projectData.map((category, index) => (
         <div key={index} className="project-category">
@@ -29,7 +31,17 @@ const Project = () => {
           </div>
         </div>
       ))}
+
+      <div className="footer">
+
+    <Footer/>
+
+      </div>
     </div>
+
+
+    </>
+    
   );
 };
 
