@@ -11,6 +11,12 @@ const Card = ({ name, image, links }) => {
     threshold: 0.2, // Triggers when 20% of the card is visible
   });
 
+  const handleRedirect = (url) => {
+    if (url) {
+      window.open(url, "_blank");
+    }
+  };
+
   const variants = {
     hidden: {
       opacity: 0,
@@ -38,29 +44,20 @@ const Card = ({ name, image, links }) => {
       >
         <div className="container noselect">
           <div className="canvas">
-            <div className="tracker tr-1" />
-            <div className="tracker tr-2" />
-            <div className="tracker tr-3" />
-            <div className="tracker tr-4" />
-            <div className="tracker tr-5" />
-            <div className="tracker tr-6" />
-            <div className="tracker tr-7" />
-            <div className="tracker tr-8" />
-            <div className="tracker tr-9" />
-            <div className="tracker tr-10" />
-            <div className="tracker tr-11" />
-            <div className="tracker tr-12" />
-            <div className="tracker tr-13" />
-            <div className="tracker tr-14" />
-            <div className="tracker tr-15" />
-            <div className="tracker tr-16" />
-            <div className="tracker tr-17" />
-            <div className="tracker tr-18" />
-            <div className="tracker tr-19" />
-            <div className="tracker tr-20" />
-            <div className="tracker tr-21" />
-            <div className="tracker tr-22" />
-            <div className="tracker tr-23" />
+            {Array.from({ length: 25 }, (_, i) => (
+              <div
+                key={i}
+                className={`tracker tr-${i + 1}`}
+                onClick={() => {
+                  if ([9, 14].includes(i + 1)) {
+                    handleRedirect(links.instagram);
+                  }
+                  if ([7, 12].includes(i + 1)) {
+                    handleRedirect(links.linkedin);
+                  }
+                }}
+              />
+            ))}
             <div id="card">
               <div className="card-content">
                 <div className="card-glare" />
@@ -71,7 +68,6 @@ const Card = ({ name, image, links }) => {
                   <span />
                 </div>
                 <p id="prompt">
-                  {" "}
                   <img src={image} alt={name} />
                 </p>
                 <div className="title">
@@ -90,9 +86,8 @@ const Card = ({ name, image, links }) => {
                       href={links.instagram}
                       target="_blank"
                       rel="noopener noreferrer"
-                      
                     >
-                      <img src={instagram} alt="LinkedIn" />
+                      <img src={instagram} alt="Instagram" />
                     </a>
                   )}
                 </div>
@@ -107,7 +102,8 @@ const Card = ({ name, image, links }) => {
                 <div className="card-particles">
                   <span />
                   <span />
-                  <span /> <span />
+                  <span />
+                  <span />
                   <span />
                   <span />
                 </div>
@@ -126,6 +122,8 @@ const Card = ({ name, image, links }) => {
     </StyledWrapper>
   );
 };
+
+
 
 const StyledWrapper = styled.div`
   .container {
@@ -184,8 +182,16 @@ const StyledWrapper = styled.div`
     height: 50%;
   }
 
-  .title {
-   opacity: 0;
+
+
+
+
+
+
+
+
+     .title {
+    opacity: 0;
     transition: 300ms ease-in-out;
     position: absolute;
     font-size: 28px;
@@ -198,12 +204,15 @@ const StyledWrapper = styled.div`
     -webkit-background-clip: text;
     padding-left: 28%;
     -webkit-text-fill-color: transparent;
-    gap: 13%;
+    gap: 22%;
     filter: drop-shadow(0 0 15px rgba(0, 255, 170, 0.3));
-    padding-right: 18%;
-    display: flex;
+    padding-right: -3%;
+    padding-left: 19%;
+    display: flex
+;
     text-shadow: 0 0 10px rgba(92, 103, 255, 0.5), 0 0 20px rgba(92, 103, 255, 0.3);
-    z-index:100;
+    z-index: 100;
+
   }
 
   .subtitle {
