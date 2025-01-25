@@ -4,6 +4,7 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import HackerText from "./HackerText";
 
 const Card = ({ name, image, links }) => {
   const [ref, inView] = useInView({
@@ -97,7 +98,7 @@ const Card = ({ name, image, links }) => {
                   <div className="glow-3" />
                 </div>
                 <div className="subtitle">
-                  <span className="highlight">{name}</span>
+                  <span className="highlight"><HackerText text ={name} /></span>
                 </div>
                 <div className="card-particles">
                   <span />
