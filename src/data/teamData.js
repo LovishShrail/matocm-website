@@ -85,9 +85,11 @@ const teamData = [
       title: "Previous Club Coordinators",
       members: [
         {
+
           name: 'Dharuva',
           image: Dharuva,
           links: { instagram: "https://www.instagram.com/dharuva_thakur?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdharuva-thakur-83576122a%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaYstVr2D-W5IdWITXQ8pFjf20nfWUgU3Nsls-OtgdRJCrRN1w8nWHuoB88_aem_xnPRszOpmRCrHKH0QSnNkw&e=AT0Beauu4E6xIbrfiLj-aFFBdEiAk6H29-4IsxJ-gud_IFy4D_kvDGMBqjd7K0axOcA4-5QmTUrzllWs5QGkufVYtdqndTd9ckSEU2k" },
+
         },
         {
           name: "Mehul Aggarwal",
@@ -101,6 +103,7 @@ const teamData = [
       title: "Pre-Final Year",
       members: [
         {
+
           name: "Krishna Narzary",
           image: Krishna_22bma015,
           links: { instagram: "https://www.instagram.com/majuuu___?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
@@ -144,6 +147,7 @@ const teamData = [
           name: "TANISHQ VERMA",
           image: Tanishq_22BMA043,
           links: { instagram: "https://www.instagram.com/tanishq_v010?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
+
         },
         {
           name: "PRAKRITI",
@@ -171,19 +175,19 @@ const teamData = [
           },
         },
         {
-          name: "Ojaswi Jaswal",
-          image: ojaswi,
-          links: {
-            instagram: "https://www.instagram.com/ojaswi_jaswal?igsh=ZmY3ZWg5bWV3MG13",
-            linkedin: "https://www.linkedin.com/in/ojaswi-jaswal-1b5b80280/",
-          },
-        },
-        {
           name: "Lovish Shrail",
           image: lovish,
           links: {
             instagram: "https://www.instagram.com/lovish_shrail?igsh=MXI2aXR6aWx4OThjcw==",
             linkedin: "https://www.linkedin.com/in/lovish-shrail-55a8b6269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          },
+        },
+        {
+          name: "Ojaswi Jaswal",
+          image: ojaswi,
+          links: {
+            instagram: "https://www.instagram.com/ojaswi_jaswal?igsh=ZmY3ZWg5bWV3MG13",
+            linkedin: "https://www.linkedin.com/in/ojaswi-jaswal-1b5b80280/",
           },
         },
         {
