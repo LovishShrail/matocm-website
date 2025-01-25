@@ -44,7 +44,12 @@ import prince from '../assets/2ndyr/prince.jpg';
 import ojaswi from '../assets/2ndyr/ojaswi.jpg';
 import nikhilesh from '../assets/2ndyr/nikhilesh.jpg';
 import shruti from '../assets/2ndyr/shruti.jpg';
+import srishti from '../assets/2ndyr/srishti.jpg';
+import arushi from '../assets/2ndyr/arushi.jpg';
 // import arushi from '../assets/2ndyr/arushi.jpg';
+
+
+
 
 
 
@@ -121,7 +126,7 @@ const teamData = [
         {
           name: "SUSHANT",
           image: susi,
-          links: { instagram: "https://www.instagram.com/sushant_ii?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
+          links: { instagram: "https://www.instagram.com/sushant_ii?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/sushant-bab3b2257/" },
         },
         {
           name: "RITIKA YULLAM",
@@ -235,7 +240,7 @@ const teamData = [
         },
         {
           name: "Srishti",
-          image: member1,
+          image: srishti,
           links: {
             instagram: "https://www.instagram.com/__srishtinegi_08?igsh=MWFxOXQxa2RnNjZnNw==",
             linkedin: "https://www.linkedin.com/in/srishti-3405702b0",
@@ -321,6 +326,11 @@ const teamData = [
         },
         {
           name: "Arushi",
+          image: arushi,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Tsewang Gyatso",
           image: member1,
           links: { instagram: "#", linkedin: "#" },
         },
