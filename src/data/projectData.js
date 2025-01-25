@@ -56,7 +56,7 @@ const projectData = [
         description: "FashioAI is an innovative platform that combines ML,AR, and 3D rendering to provide users with an immersive virtual shopping experience. It allows individuals to try on garments virtually, visualizing how they would look on their bodies in real-time. By analyzing body shapes and predicting garment sizes."
       },
       {
-        name: "PravaalVeer",
+        name: "AeroVigil ",
         image: image7,
         links: { instagram: "#", linkedin: "#" },
         description: "A drone-based system designed to monitor forests for early detection of fires using high-resolution cameras, infrared sensors, and gas detectors. It leverages machine learning to predict fire risks and transmits real-time data to a ground station, alerting authorities with GPS coordinates for swift action"

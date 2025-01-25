@@ -109,6 +109,7 @@ import aman from '../assets/finalyear/aman.jpg';
 
 
 
+
 const teamData = [
     {
       title: "Previous Club Coordinators",
@@ -160,7 +161,7 @@ const teamData = [
           links: { instagram: "#", linkedin: "#" },
         },
         {
-          name: "arjun Singh",
+          name: "Arjun Singh",
           image: arjun,
           links: { instagram: "#", linkedin: "#" },
         },
@@ -180,7 +181,7 @@ const teamData = [
           links: { instagram: "#", linkedin: "#" },
         },
         {
-          name: "Hardik",
+          name: "Hardik Sachdeva",
           image: hardik,
           links: { instagram: "#", linkedin: "#" },
         },
@@ -215,7 +216,7 @@ const teamData = [
           links: { instagram: "#", linkedin: "#" },
         },
         {
-          name: "Priyanshu singh",
+          name: "Priyanshu Singh",
           image: priyanshu,
           links: { instagram: "#", linkedin: "#" },
         },
@@ -243,53 +244,53 @@ const teamData = [
           links: { instagram: "https://www.instagram.com/majuuu___?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
         },
         {
-          name: "SHIVANSH JOSHI",
+          name: "Shivansh Joshi",
           image: SHIVANSHJOSHI_22BMA038,
           links: { instagram: "https://www.instagram.com/joshi_shivansh27?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/shivansh-joshi-75870026a/" },
         },
         {
-          name: "UJJWAL MITTAL",
+          name: "Ujjwal Mittal",
           image: Ujjwal_22BMA045,
           links: { instagram: "https://www.instagram.com/ujjwal_mittal_0101?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/ujjwamittal/" },
         },
         {
-          name: "DHRUV CHAUHAN",
+          name: "Dhruv Chauhan",
           image: DhruvChauhan_22BMA011,
           links: { instagram: "https://www.instagram.com/dhruv_____chauhan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/dhruvchauhan245/" },
         },
         {
-          name: "SUSHANT",
+          name: "Sushant",
           image: susi,
           links: { instagram: "https://www.instagram.com/sushant_ii?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/sushant-bab3b2257/" },
         },
         {
-          name: "RITIKA YULLAM",
+          name: "Ritika Yullam",
           image: Ritika_22BMA028,
           links: { instagram: "https://www.instagram.com/ritikaayullam?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
         },
         {
-          name: "ANSHIKA BHARWAL",
+          name: "Anshika Bharwal",
           image: anshika_22bma006,
           links: { instagram: "https://www.instagram.com/anshikabharwal?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
         },
         {
-          name: "DEVENDER Pandey",
+          name: "Devender Pandey",
           image: DevenderKumar_22bma010,
           links: { instagram: "https://www.instagram.com/devenderkumar2003?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
         },
         {
-          name: "TANISHQ VERMA",
+          name: "Tanishq Verma",
           image: Tanishq_22BMA043,
           links: { instagram: "https://www.instagram.com/tanishq_v010?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
 
         },
         {
-          name: "PRAKRITI",
+          name: "Prakriti",
           image: prakriti,
           links: { instagram: "https://www.instagram.com/prakriti_singh25?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
         },
         {
-          name: "UTKARSH ARORA",
+          name: "Utkarsh Arora",
           image: UtkarshArora_22BMA046,
           links: { instagram: "https://www.instagram.com/arthon242?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
         },
@@ -449,17 +450,17 @@ const teamData = [
         },
 
         {
-          name: "DIPANSHI GUPTA",
+          name: "Dipanshi Gupta",
           image: DipanshiGupta,
           links: { instagram: "#", linkedin: "https://www.linkedin.com/in/dipanshi-gupta-67157428a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
-          name: "NIKHIL RANA",
+          name: "Nikhil Rana",
           image: nikhil,
           links: { instagram: "https://www.instagram.com/rana_nikhil?igsh=bGF5ODB0ODd5ZTd4", linkedin: "https://www.linkedin.com/in/nikhil-rana-458735281/" },
         },
         {
-          name: "ANSH PUJARA",
+          name: "Ansh Pujara",
           image: ansh,
           links: { instagram: "#", linkedin: "https://www.linkedin.com/in/ansh-pujara-48656b291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
         },
@@ -486,12 +487,12 @@ const teamData = [
       members: [
         
         {
-          name: "AASTHA CHAUDHARY",
+          name: "Aastha Chaudhary",
           image: AasthaChoudhary,
           links: { instagram: "https://www.instagram.com/aasthachoudhary_01?igsh=MXU2NzFsaXVmaHFvOQ==", linkedin: "#" },
         },
         {
-          name: "ADITYA NEGI",
+          name: "Aditya Negi",
           image: AadityaNegi,
           links: {
             instagram: "https://www.instagram.com/adityanegi103.5?igsh=eDV0dzBhcjJyMDBn&utm_source=qr",
@@ -500,7 +501,7 @@ const teamData = [
           },
         },
         {
-          name: "ADITYAVARDHAN SINGH",
+          name: "Adityavardhan Singh",
           image: ADITYAVARDHANSINGH,
           links: {
             instagram: "https://www.instagram.com/adityav_rdhansingh/",
@@ -509,7 +510,7 @@ const teamData = [
           },
         },
         {
-          name: "AGASTYA GAUTAM",
+          name: "Agastya Gautam",
           image: AgastyaGautam,
           links: {
             instagram: "https://www.instagram.com/_agstya04_?igsh=MXg3YzB5eXVveHMyeg==",
@@ -517,7 +518,7 @@ const teamData = [
           },
         },
         {
-          name: "ANIKA Sharma",
+          name: "Anika Sharma",
           image: AnikaSharma,
           links: {
             instagram: "https://www.instagram.com/anikahimalayan/",
@@ -525,7 +526,7 @@ const teamData = [
           },
         },
         {
-          name: "ARYA THAKUR",
+          name: "Arya Thakur",
           image: Arya,
           links: {
             instagram: "NA",
@@ -534,12 +535,12 @@ const teamData = [
           },
         },
         {
-          name: "GULSHAN KUMAR",
+          name: "Gulshan Kumar",
           image: GulshanKumar,
           links: { instagram: "#", linkedin: "#" },
         },
         {
-          name: "HEMANT MACHIWAR",
+          name: "Hemant Machiwar",
           image: HEMANTMACHIWAR,
           links: {
             instagram: "https://www.instagram.com/hemant_machiwar/?igsh=b3h6Y2g5aHJtd3M5#",
@@ -547,7 +548,7 @@ const teamData = [
           },
         },
         {
-          name: "KOMAL CHOUDHARY",
+          name: "Komal Choudhary",
           image: KomalChoudhary,
           links: {
             instagram: "https://www.instagram.com/komal_choudhary2006?igsh=Z3JnemtnZGZxenZy",
@@ -555,7 +556,7 @@ const teamData = [
           },
         },
         {
-          name: "KUNAL THAKUR",
+          name: "Kunal Thakur",
           image: kunalthakur,
           links: {
             instagram: "https://www.instagram.com/_.thakurkunal._/#",
@@ -564,12 +565,12 @@ const teamData = [
           },
         },
         {
-          name: "KUNZ SHARMA",
+          name: "Kunz Sharma",
           image: kunz,
           links: { instagram: "#", linkedin: "#" },
         },
         {
-          name: "SAMEER VARSHNEY",
+          name: "Sameer Varshney",
           image: SamVar,
           links: {
             instagram: "https://www.instagram.com/i.am.sameer.03?igsh=MXZyM3ppMm1jc25mbQ==",
@@ -577,7 +578,7 @@ const teamData = [
           },
         },
         {
-          name: "SANCHIT PAREEK",
+          name: "Sanchit Pareek",
           image: SanchitPareek,
           links: {
             instagram: "https://www.instagram.com/siresanchit?igsh=MWd3b2pxbGdxNWJpNA==",
@@ -585,7 +586,7 @@ const teamData = [
           },
         },
         {
-          name: "SATYA THADHAGATH",
+          name: "Satya Thadhagath",
           image: SatyaThadhagath,
           links: {
             instagram: "https://www.instagram.com/vemulassatya?igsh=MWJwZWZsY2o3MTVsbg==",
@@ -593,12 +594,12 @@ const teamData = [
           },
         },
         {
-          name: "SHIVEN PAREEK",
+          name: "Shiven Pareek",
           image: ShivenPareek,
           links: { instagram: "#", linkedin: "#" },
         },
         {
-          name: "SHREYANS JAIN",
+          name: "Shreyans Jain",
           image: SHREYANSJAIN,
           links: {
             instagram: "https://www.instagram.com/shreyans1805?igsh=MTRxN3p3MWZjcmc4NQ==",
@@ -607,7 +608,7 @@ const teamData = [
           },
         },
         {
-          name: "SHUBHAM VERMA",
+          name: "Shubham Verma",
           image: ShubhamVerma,
           links: {
             instagram: "https://www.instagram.com/also.shubhamm?igsh=MWpyanJxY3d2NWIxZg==",
@@ -615,7 +616,7 @@ const teamData = [
           },
         },
         {
-          name: "SRIJAN GUPTA",
+          name: "Srijan Gupta",
           image: SrijanGupta,
           links: {
             instagram: "https://www.instagram.com/srijan_0_0?igsh=MW53dXU3OWR4eDQ5eA==",
@@ -623,7 +624,7 @@ const teamData = [
           },
         },
         {
-          name: "SUJAL SHARMA",
+          name: "Sujal Sharma",
           image: SujalSharma,
           links: {
             instagram: "https://www.instagram.com/_.s.u.j.a.l/",
@@ -632,7 +633,7 @@ const teamData = [
           },
         },
         {
-          name: "SUSHANT YADAV",
+          name: "Sushant Yadav",
           image: sushant,
           links: {
             instagram: "https://www.instagram.com/heree_sushant?igsh=YTRzNTh1cW1waTAw",
@@ -640,7 +641,7 @@ const teamData = [
           },
         },
         {
-          name: "VEDANSH",
+          name: "Vedansh",
           image: VEDANSH,
           links: {
             instagram: "#",
@@ -648,7 +649,7 @@ const teamData = [
           },
         },
         {
-          name: "VINIT PRATAB",
+          name: "Vinit Pratab",
           image: VINITPRATAB,
           links: {
             instagram: "#",
