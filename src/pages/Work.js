@@ -1,14 +1,14 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import "../styles/Projects.css";
-import projectData from "../data/projectData";
+import ourworkData from "../data/ourworkData";
 import Footer from "../components/Footer";
 import HackerText from "../components/HackerText";
 
 const Work = () => {
   return (
     <div className="project-section">
-      {projectData.map((category, index) => (
+      {ourworkData.map((category, index) => (
         <div key={index} className="project-category">
            <h2 className="year-heading"  style={{
             background: "linear-gradient(-45deg, #ff69b4, #e890e8, #b19cd9,rgb(90, 27, 216), #8a2be2)",

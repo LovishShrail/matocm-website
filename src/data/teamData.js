@@ -46,6 +46,12 @@ import nikhilesh from '../assets/2ndyr/nikhilesh.jpg';
 import shruti from '../assets/2ndyr/shruti.jpg';
 import srishti from '../assets/2ndyr/srishti.jpg';
 import arushi from '../assets/2ndyr/arushi.jpg';
+import vinayak from '../assets/2ndyr/vinayak.jpg';
+import nikhil from '../assets/2ndyr/nikhil.jpg';
+import akshaymec from '../assets/2ndyr/akshaymec.jpg';
+
+
+
 // import arushi from '../assets/2ndyr/arushi.jpg';
 
 
@@ -74,6 +80,29 @@ import UtkarshArora_22BMA046 from '../assets/3rdyr/ThirdYear/UtkarshArora_22BMA0
 // final year
 import Dharuva from '../assets/finalyear/Dharuva.jpg';
 import Mehul from '../assets/finalyear/Mehul.jpg';
+import aditi from '../assets/finalyear/aditi.jpg';
+
+import anurag from '../assets/finalyear/anurag.jpg';
+import arjun from '../assets/finalyear/arjun.jpg';
+import armaan from '../assets/finalyear/armaan.jpg';
+import devesh from '../assets/finalyear/devesh.jpg';
+import gayatri from '../assets/finalyear/gayatri.jpg';
+import manas from '../assets/finalyear/manas.jpg';
+import hardik from '../assets/finalyear/hardik.jpg';
+import komal from '../assets/finalyear/komal.jpg';
+import shantun from '../assets/finalyear/shantun.jpg';
+import mrigesh from '../assets/finalyear/mrigesh.jpg';
+import muskan from '../assets/finalyear/muskan.jpg';
+import priyanshu from '../assets/finalyear/priyanshu.jpg';
+import yachana from '../assets/finalyear/yachana.jpg';
+import yogesh from '../assets/finalyear/yogesh.jpg';
+import palak from '../assets/finalyear/palak.jpg';
+import aman from '../assets/finalyear/aman.jpg';
+
+
+
+
+
 
 
 
@@ -84,9 +113,10 @@ const teamData = [
     {
       title: "Previous Club Coordinators",
       members: [
+        
         {
 
-          name: 'Dharuva',
+          name: 'Dharuva Thakur',
           image: Dharuva,
           links: { instagram: "https://www.instagram.com/dharuva_thakur?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdharuva-thakur-83576122a%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaYstVr2D-W5IdWITXQ8pFjf20nfWUgU3Nsls-OtgdRJCrRN1w8nWHuoB88_aem_xnPRszOpmRCrHKH0QSnNkw&e=AT0Beauu4E6xIbrfiLj-aFFBdEiAk6H29-4IsxJ-gud_IFy4D_kvDGMBqjd7K0axOcA4-5QmTUrzllWs5QGkufVYtdqndTd9ckSEU2k" },
 
@@ -96,6 +126,110 @@ const teamData = [
           image: Mehul,
           links: { instagram: "https://www.instagram.com/mehul_tp26?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/mehul-aggarwal-47285421b/" },
         },
+        // Add more coordinators
+      ],
+    },
+    {
+      title: "Final Year",
+      members: [
+        {
+
+          name: 'Dharuva Thakur',
+          image: Dharuva,
+          links: { instagram: "https://www.instagram.com/dharuva_thakur?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdharuva-thakur-83576122a%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaYstVr2D-W5IdWITXQ8pFjf20nfWUgU3Nsls-OtgdRJCrRN1w8nWHuoB88_aem_xnPRszOpmRCrHKH0QSnNkw&e=AT0Beauu4E6xIbrfiLj-aFFBdEiAk6H29-4IsxJ-gud_IFy4D_kvDGMBqjd7K0axOcA4-5QmTUrzllWs5QGkufVYtdqndTd9ckSEU2k" },
+
+        },
+        {
+          name: "Mehul Aggarwal",
+          image: Mehul,
+          links: { instagram: "https://www.instagram.com/mehul_tp26?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/mehul-aggarwal-47285421b/" },
+        },
+        {
+          name: "Shantun",
+          image: shantun,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Aditi",
+          image: aditi,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Anurag Verma",
+          image: anurag,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "arjun Singh",
+          image: arjun,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Armaan Shukla",
+          image: armaan,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Devesh",
+          image: devesh,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Gayatri Jadav",
+          image: gayatri,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Hardik",
+          image: hardik,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Komal Chaudhary",
+          image: komal,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Manas Sood",
+          image: manas,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Mrigesh Thakur",
+          image: mrigesh,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Aman Asrani",
+          image: aman,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Muskan",
+          image: muskan,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Palak Raj",
+          image: palak,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Priyanshu singh",
+          image: priyanshu,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Yachana Arora",
+          image: yachana,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        {
+          name: "Yogesh",
+          image: yogesh,
+          links: { instagram: "#", linkedin: "#" },
+        },
+        
         // Add more coordinators
       ],
     },
@@ -139,7 +273,7 @@ const teamData = [
           links: { instagram: "https://www.instagram.com/anshikabharwal?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
         },
         {
-          name: "DEVENDER KUMAR",
+          name: "DEVENDER Pandey",
           image: DevenderKumar_22bma010,
           links: { instagram: "https://www.instagram.com/devenderkumar2003?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
         },
@@ -253,6 +387,16 @@ const teamData = [
             instagram: "https://www.instagram.com/__akshay.___._/?hl=en",
             linkedin: "https://www.linkedin.com/in/akshay-kumar-b06063179/",
           },
+          
+        },
+        {
+          name: "Akshay Kuar",
+          image: akshaymec,
+          links: {
+            instagram: "https://www.instagram.com/__akshay.___._/?hl=en",
+            linkedin: "https://www.linkedin.com/in/akshay-kumar-b06063179/",
+          },
+          
         },
         {
           name: "Nikhilesh Sahu",
@@ -288,7 +432,7 @@ const teamData = [
         },
         {
           name: "Vinayak Sharma",
-          image: member1,
+          image: vinayak,
           links: {
             instagram: "https://www.instagram.com/_vinayak.79?igsh=bmU1dTF5NmR0ZDNu",
             linkedin: "https://www.linkedin.com/in/vinayak-sharma-b80a59294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -311,7 +455,7 @@ const teamData = [
         },
         {
           name: "NIKHIL RANA",
-          image: member1,
+          image: nikhil,
           links: { instagram: "https://www.instagram.com/rana_nikhil?igsh=bGF5ODB0ODd5ZTd4", linkedin: "https://www.linkedin.com/in/nikhil-rana-458735281/" },
         },
         {

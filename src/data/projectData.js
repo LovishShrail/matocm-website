@@ -6,15 +6,23 @@ import image4 from "../assets/image4.png";
 import image5 from "../assets/image5.png";
 import image6 from "../assets/image6.png";
 import image7 from "../assets/image7.png";
+import parkkar from "../assets/parkkar.jpg";
 
 
 
-import member1 from '../data/Picture.png'; // Adjust the path as needed
+
+
 
 const projectData = [
   {
     title: "Previous Club Projects",
     projects: [
+      {
+        name: 'Parking Solutions',
+        image: image5,
+        links: { instagram: "#", linkedin: "#" },
+        description: "This system revolutionizes urban parkin-g with real-time space detection and private spot sharing. Using YOLO and Mask R-CNN for AI-driven detection, it integrates user-friendly features like secure registration, space listing, reservations, video verification, and payment processing."
+      },
       {
         name: 'Algo Trading Bot',
         image: image1,
@@ -40,12 +48,7 @@ const projectData = [
         links: { instagram: "#", linkedin: "#" },
         description: "The Spoof Call Detection System is a security-focused application designed to identify and mitigate system-generated spoof calls that often aim to deceive or defraud recipients.  The system detects anomalies in caller behavior, call patterns, voice characteristics, and geographical data."
       },
-      {
-        name: 'Parking Solutions',
-        image: image5,
-        links: { instagram: "#", linkedin: "#" },
-        description: "This system revolutionizes urban parking with real-time space detection and private spot sharing. Using YOLO and Mask R-CNN for AI-driven detection, it integrates user-friendly features like secure registration, space listing, reservations, video verification, and payment processing."
-      },
+      
       {
         name: "FashioAI",
         image: image6,
@@ -68,28 +71,11 @@ const projectData = [
     projects: [
       {
         name: "Project Gamma",
-        image: member1,
+        image: parkkar,
         links: { instagram: "#", linkedin: "#" },
         description: "Description about Project Gamma."
       },
-      {
-        name: "Project Gamma",
-        image: member1,
-        links: { instagram: "#", linkedin: "#" },
-        description: "Description about Project Gamma."
-      },
-      {
-        name: "Project Gamma",
-        image: member1,
-        links: { instagram: "#", linkedin: "#" },
-        description: "Description about Project Gamma."
-      },
-      {
-        name: "Project Gamma",
-        image: member1,
-        links: { instagram: "#", linkedin: "#" },
-        description: "Description about Project Gamma."
-      },
+      
       // Add more ongoing projects
     ],
   },
