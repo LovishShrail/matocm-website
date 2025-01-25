@@ -16,7 +16,7 @@ const NAV_ITEMS = [
 const SOCIAL_ITEMS = [
   { label: 'Linkedin', icon: Linkedin, href: '/https://www.linkedin.com/company/matcom-nith/'  },
   { label: 'Gmail', icon: Mail, href: "mailto:matcom.nimbus@nith.ac.in" },
-  { label: 'Github', icon: Github, href: '#' },
+  { label: 'Github', icon: Github, href: 'https://github.com/team-matcom' },
   { label: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/matcom_nith?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' },
 ];
 
@@ -100,11 +100,17 @@ const Navbar = () => {
           <div className="dropdown-section">
             <div className="dropdown-section-title">Socials</div>
             {SOCIAL_ITEMS.map((item) => (
-              <a key={item.label} href={item.href} className="dropdown-item">
-                <item.icon className="dropdown-item-icon" size={18} />
-                {item.label}
-              </a>
-            ))}
+  <a
+    key={item.label}
+    href={item.href}
+    className="dropdown-item"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <item.icon className="dropdown-item-icon" size={18} />
+    {item.label}
+  </a>
+))}
           </div>
         </div>
       </div>

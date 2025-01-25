@@ -174,7 +174,7 @@
     font-size: 0.7rem;
 } */
 
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
 
   .large-image {
     display: block;
@@ -350,23 +350,129 @@
         height: 45rem;
         width: 100vh;
     }
-    /* .footer {
-        display: flex; 
-        justify-content:space-around; 
-        padding: 3rem;
-        align-items:center;
-        color: #ffffff;
-        border-top: 1px solid rgb(36, 6, 57);
-    
+ 
+}
+
+@media (min-width: 500px) and (max-width: 900px){
+
+  .large-image {
+    display: block;
+  }
+  
+  .small-image {
+    display: none;
+  }
+    .header-container {
+        padding: 2rem;
     }
+
+    .animated-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(-45deg, #ff69b420, #e890e820, #b19cd920, #9370db20, #8a2be220);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        z-index: -1;
+      }
     
-    .footer-content1{
-        padding-right: 4rem;
-        font-weight: 700;
-        font-size: 0.5rem;
+      .particles {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+      
+      .particle {
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        background: linear-gradient(45deg, #ff69b4, #8a2be2);
+        border-radius: 50%;
+        animation: float linear infinite;
+        opacity: 0.3;
+      }
+      
+      /* Animations */
+      @keyframes gradientBG {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      
+      @keyframes float {
+        0% {
+          transform: translateY(100vh) scale(0);
+          opacity: 0;
+        }
+        50% {
+          opacity: 0.3;
+        }
+        100% {
+          transform: translateY(-100px) scale(1);
+          opacity: 0;
+        }
+      }
+      
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      
+      .hero {
+        display: block; /* Ensure it is visible by default */
+        z-index: -2;
+
+      }
+
+    .matcom {
+        margin-top: -4rem;
+        font-size: 5.3rem; 
+        padding-top: 95px;
+        margin-bottom: -25px;
     }
-    .footer-content2{
-        padding-left: 2rem;
-        font-size: 0.4rem;
-    } */
+
+    .nit-hamirpur {
+        font-size: 4.2rem;
+        margin-bottom: -0.3rem; 
+    }
+
+    .description {
+        position: relative;
+        font-size: 1.2rem; 
+        max-width: 50%;
+        z-index: 100;
+    }
+
+    .image-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      margin-top: 45px;
+      z-index:0;
+      
+  }
+  
+  .image-container img {
+      max-width: 100%; 
+      height: 20rem;
+      width:1800px;
+  }
+
 }

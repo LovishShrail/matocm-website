@@ -186,19 +186,19 @@ const teamData = [
           },
         },
         {
-          name: "Rudesh",
-          image: rudesh,
-          links: {
-            instagram: "#",
-            linkedin: "https://www.linkedin.com/in/rudesh-kumar-40712b280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-          },
-        },
-        {
           name: "Sneha",
           image: SNEHA,
           links: {
             instagram: "https://www.instagram.com/sneha_rana777?igsh=dWxsZDk4dDNveG1x",
             linkedin: "https://www.linkedin.com/in/sneha-4a25342b0",
+          },
+        },
+        {
+          name: "Rudesh",
+          image: rudesh,
+          links: {
+            instagram: "#",
+            linkedin: "https://www.linkedin.com/in/rudesh-kumar-40712b280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           },
         },
         {

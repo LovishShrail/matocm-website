@@ -92,7 +92,7 @@
     line-height: 1.2;
 }
 
-@media (min-width: 768px){
+@media (min-width: 1100px){
     .faq-heading{
         text-decoration: underline;
         text-decoration-color: #95f52f;
@@ -296,5 +296,106 @@
     .faq-content p {
         margin: 0;
         line-height: 1.6;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 900px){
+
+    .faq-heading{
+        text-decoration: underline;
+        text-decoration-color: #95f52f;
+        text-underline-offset: 18px;
+        text-decoration-thickness: 3px;
+        color: white;
+        margin-top: 3rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 80px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .faq-section {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; 
+        padding: 7rem;
+    }
+    
+    .faq-card {
+        background: white;
+        border-radius: 10px; 
+        padding: 17px 28px; 
+        transition: all 0.3s ease;
+        max-width: 100%;
+        overflow: hidden;
+        margin-bottom: 0.3rem; 
+     }
+    
+    .faq-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 2px; 
+    }
+    
+    .faq-header.expanded {
+        border-bottom: 3px solid #000000;
+    }
+    
+    .faq-title {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .faq-number {
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1;
+    }
+    
+    .faq-title h2 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin: 0;
+    }
+    
+    .toggle-button {
+        width: 28px; 
+        height: 28px;
+        border: 2px solid currentColor;
+        border-radius: 50%;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 2rem; 
+        transition: transform 0.2s ease;
+    }
+    
+    .toggle-button:hover {
+        transform: scale(1.1);
+    }
+    
+    .faq-content {
+        max-height: 0;
+        opacity: 0;
+        transition: all 0.25s ease;
+        overflow: hidden;
+    }
+    
+    .expanded .faq-content {
+        max-height: 300px;
+        opacity: 1;
+        margin-top: 10px;
+    }
+    
+    .faq-content p {
+        margin: 0;
+        line-height: 1.2;
     }
 }
