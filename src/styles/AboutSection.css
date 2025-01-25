@@ -55,7 +55,7 @@
 }
 
 
-@media (min-width: 768px){
+@media (min-width: 1100px){
   .about-us-section {
     margin-top: 80px;
     gap: 2rem;
@@ -159,4 +159,58 @@
     line-height: 1.3;
     margin-bottom: 0.5rem;
   } 
+}
+
+@media (min-width: 500px) and (max-width: 900px){
+
+  .about-us-section {
+    margin-top: 150px;
+    gap: 2rem;
+    display: flex;
+    padding: 6.5rem;
+    min-height: 30vh; 
+  }
+  
+  
+  .logo-section {
+
+    display: none;
+  }
+  
+  .logo-section img {
+    width: 590px;
+    height: auto;
+    margin-top: 100px;
+    /* margin-left: 100px; */
+  }
+  
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 0.4rem;
+  }
+  
+  .about-us-heading {
+    text-decoration: underline;
+    text-decoration-color: #95f52f;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 3px;
+    padding-right: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    width: 100%;
+    text-align: center;
+  
+  }
+  
+  .about-us-content p {
+    font-family: 'Calibri Light', Calibri, sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+
 }

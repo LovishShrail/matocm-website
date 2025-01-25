@@ -163,12 +163,13 @@
 }
 
 /* RESPONSIVE DESIGN */
-@media (min-width: 780px) {
+@media (min-width: 1100px) {
   .team-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Maximum of 3 columns */
+    grid-template-columns: repeat(4, 1fr); /* Maximum of 3 columns */
     gap: 40px;
     justify-items: center;
+    padding: 4rem;
 }
   .team-card {
   
@@ -216,7 +217,7 @@
     height: 16px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .filter-dropdown {
     width: 40px; /* Compact width for smaller screens */
     padding: 8px;
