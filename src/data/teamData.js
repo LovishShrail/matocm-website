@@ -39,7 +39,7 @@ import SARTHAK from '../assets/2ndyr/SARTHAK.jpg';
 import aryansoni from '../assets/2ndyr/aryansoni.jpg';
 import rudesh from '../assets/2ndyr/rudesh.jpg';
 import lovish from '../assets/2ndyr/lovish.jpg';
-import ashutosh from '../assets/2ndyr/ashutosh.jpg';
+import ramit from '../assets/2ndyr/ramit.jpg';
 import prince from '../assets/2ndyr/prince.jpg';
 import ojaswi from '../assets/2ndyr/ojaswi.jpg';
 import nikhilesh from '../assets/2ndyr/nikhilesh.jpg';
@@ -391,11 +391,11 @@ const teamData = [
           
         },
         {
-          name: "Akshay Kuar",
+          name: "Akshay Anand",
           image: akshaymec,
           links: {
-            instagram: "https://www.instagram.com/__akshay.___._/?hl=en",
-            linkedin: "https://www.linkedin.com/in/akshay-kumar-b06063179/",
+            instagram: "https://www.instagram.com/whysoaksh?igsh=MXNqYndjNHBxN29nNw==",
+            linkedin: "https://www.linkedin.com/in/akshay-anand-46856a2ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           },
           
         },
@@ -416,11 +416,11 @@ const teamData = [
           },
         },
         {
-          name: "Ashutosh Gupta",
-          image: ashutosh,
+          name: "Ramit",
+          image: ramit,
           links: {
-            instagram: "#",
-            linkedin: "https://www.linkedin.com/in/ashutosh-gupta-74aa132b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            instagram: "https://www.instagram.com/_w_i_z_00?igsh=dXltMnhwamZyYTg=",
+            linkedin: "https://www.linkedin.com/in/ramit-0-b62329349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           },
         },
         {
@@ -470,9 +470,9 @@ const teamData = [
           links: { instagram: "#", linkedin: "#" },
         },
         {
-          name: "Arushi",
+          name: "Arushi Dhiman",
           image: arushi,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "https://www.instagram.com/arus_hi7455?igsh=bTF6djgyODV5eGQ2&utm_source=ig_contact_invite", linkedin: "https://www.linkedin.com/in/akshay-anand-46856a2ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
           name: "Tsewang Gyatso",
