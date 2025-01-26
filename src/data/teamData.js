@@ -148,17 +148,17 @@ const teamData = [
         {
           name: "Shantun",
           image: shantun,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "#", linkedin: "https://www.linkedin.com/in/shantun-kumar-5140b522a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
           name: "Aditi",
           image: aditi,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "#", linkedin: "https://www.linkedin.com/in/aditi-tanwar4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
           name: "Anurag Verma",
           image: anurag,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "https://www.instagram.com/aightdeauth?igsh=dWVkb2FobnFmb3R6", linkedin: "https://www.linkedin.com/in/anurag-verma-585042237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
           name: "Arjun Singh",
@@ -168,17 +168,17 @@ const teamData = [
         {
           name: "Armaan Shukla",
           image: armaan,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "https://www.instagram.com/armaan._shukla?igsh=MXZyN2M4bnl3dzBsMQ==", linkedin: "https://www.linkedin.com/in/armaanshukla?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
           name: "Devesh",
           image: devesh,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "https://www.instagram.com/devesh_pandee?igsh=MThodnh3bnltZmNuaw==", linkedin: "#" },
         },
         {
           name: "Gayatri Jadav",
           image: gayatri,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "https://www.instagram.com/_gayatri__jadhav?igsh=MTB3Zm10OGN5YXJ2cw==", linkedin: "https://www.linkedin.com/in/gayatri-jadhav-887a75246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
           name: "Hardik Sachdeva",
@@ -188,22 +188,22 @@ const teamData = [
         {
           name: "Komal Chaudhary",
           image: komal,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "#", linkedin: "https://www.linkedin.com/in/chaudharyskomal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
           name: "Manas Sood",
           image: manas,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "#", linkedin: "https://www.linkedin.com/in/maanas-sood-39355a25a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
           name: "Mrigesh Thakur",
           image: mrigesh,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "https://www.instagram.com/le_gend244?igsh=MWhqYzRwcTlicnphaQ==", linkedin: "https://www.linkedin.com/in/mrigesh-thakur-11new?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
           name: "Aman Asrani",
           image: aman,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "https://www.instagram.com/asrani.aman?igsh=ZDgxZGw3a2l6ZDhj", linkedin: "https://www.linkedin.com/in/aman-asrani?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
           name: "Muskan",
@@ -213,22 +213,22 @@ const teamData = [
         {
           name: "Palak Raj",
           image: palak,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "https://www.instagram.com/palakraj_001?igsh=MW95Nm9xcHFnMnhuMg==", linkedin: "https://www.linkedin.com/in/palak-raj-555252230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
           name: "Priyanshu Singh",
           image: priyanshu,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "https://www.instagram.com/priyanshusingh9237?igsh=MThpbmtrM3F5Z2trOQ==", linkedin: "https://www.linkedin.com/in/priyanshu-singh-747441225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
           name: "Yachana Arora",
           image: yachana,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "https://www.instagram.com/yachanaaroraa?igsh=MWo3aW9sM3J1d2o1eg==", linkedin: "https://www.linkedin.com/in/yachanaarora04?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         {
           name: "Yogesh",
           image: yogesh,
-          links: { instagram: "#", linkedin: "#" },
+          links: { instagram: "https://www.instagram.com/yogeshkumar._._?igsh=b254cWNubDN0Y2Rn", linkedin: "https://www.linkedin.com/in/yogesh-kumar-a17008237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         },
         
         // Add more coordinators
