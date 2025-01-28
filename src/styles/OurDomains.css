@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* height: 100%; */
+}
+
+.Domain-section{
+
+    background-image: url('../assets/Android Medium - 1 (1).png');;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    
+}
+
+.domain{
+    padding-top: 6rem;     
+    width: 98%;
+    padding-left: 1.5rem;
+}
+
+.domain-gallery{
+    margin-top: -1.5rem;
+}
+
+
+@media (max-width: 500px) {
+    .Domain-section{
+
+        background-image: url('../assets/Android Medium - 1 (1).png');;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100%;
+
+        
+    }
+    
+    .domain{
+        padding-top: 5rem;     
+        width: 98%;
+        padding-left: 1rem;
+    }
+    
+    .domain-gallery{
+        height: 50%;
+        margin-top: -1.5rem;
+        margin-bottom: 7rem;
+    }
+    
+}

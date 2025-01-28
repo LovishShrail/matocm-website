@@ -1,22 +1,38 @@
 @media (min-width: 1100px){
 
+    .footer-container{
+        display: flex;
+        justify-content:space-evenly;
+        width: 100%;
+        gap:24rem;
+    }
+
     .footer {
-        display: flex; /* Ensures flexibility for alignment */
-        justify-content:space-around; /* Center horizontally */
         padding: 3rem;
-        align-items:center;
         color: #ffffff;
         border-top: 1px solid rgb(36, 6, 57);
     
     }
     
     .footer-content1{
-        padding-right: 50rem;
+       
         font-weight: 700;
         font-size: 0.8rem;
+        
     }
     .footer-content2{
-        padding-left: 2rem;
+        
+        font-size: 0.7rem;
+    }
+
+
+    .domains{
+        font-size: 0.8rem;
+        font-weight: 600;
+        
+    }
+
+    .domain-list{
         font-size: 0.7rem;
     }
 }
@@ -24,47 +40,80 @@
 
 @media (max-width: 500px) {
     
+    .footer-container{
+        display: flex;
+        justify-content:space-evenly;
+        width: 100%;
+        gap:3.5rem;
+    }
+
     .footer {
-        margin-top: 7rem;
-        display: flex; 
-        justify-content:space-around; 
         padding: 2rem;
-        align-items:center;
         color: #ffffff;
         border-top: 1px solid rgb(36, 6, 57);
     
     }
     
     .footer-content1{
-        padding-right: 3rem;
+       
         font-weight: 700;
-        font-size: 0.5rem;
+        font-size: 0.4rem;
+        
     }
     .footer-content2{
-        padding-left: 2rem;
+        
         font-size: 0.4rem;
+    }
+
+
+    .domains{
+        font-size: 0.4rem;
+        font-weight: 600;
+        
+    }
+
+    .domain-list{
+        font-size: 0.3rem;
+        
     }
 }
 
 
 @media (min-width: 500px) and (max-width: 900px){
+    .footer-container{
+        display: flex;
+        justify-content:space-evenly;
+        width: 100%;
+        gap:9.5rem;
+    }
+
     .footer {
-        display: flex; /* Ensures flexibility for alignment */
-        justify-content:space-around; /* Center horizontally */
-        padding: 3rem;
-        align-items:center;
+        padding: 2rem;
         color: #ffffff;
         border-top: 1px solid rgb(36, 6, 57);
     
     }
     
     .footer-content1{
-        padding-right: 12rem;
+       
         font-weight: 700;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
+        
     }
     .footer-content2{
-        padding-left: 2rem;
-        font-size: 0.7rem;
+        
+        font-size: 0.6rem;
+    }
+
+
+    .domains{
+        font-size: 0.6rem;
+        font-weight: 600;
+        
+    }
+
+    .domain-list{
+        font-size: 0.5rem;
+        
     }
 }

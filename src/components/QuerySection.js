@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Instagram, Linkedin } from 'lucide-react';
+import { Instagram, Linkedin, Github, Mail } from 'lucide-react';
 import '../styles/QuerySection.css';
 
 const QuerySection = () => {
@@ -58,6 +58,14 @@ const QuerySection = () => {
                 transition={{ delay: 0.4 }}
             >
                 <a
+                    href="https://www.linkedin.com/company/matcom-nith"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-icon"
+                >
+                    <Linkedin size={24} />
+                </a>
+                <a
                     href="https://www.instagram.com/matcom_nith?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                     target="_blank"
                     rel="noopener noreferrer"
@@ -66,12 +74,20 @@ const QuerySection = () => {
                     <Instagram size={24} />
                 </a>
                 <a
-                    href="/https://www.linkedin.com/company/matcom-nith/"
+                    href="https://github.com/team-matcom"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-icon"
                 >
-                    <Linkedin size={24} />
+                    <Github size={24} />
+                </a>
+                <a
+                    href="mailto:matcom.nimbus@nith.ac.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-icon"
+                >
+                    <Mail size={24} />
                 </a>
             </motion.div>
         </motion.div>

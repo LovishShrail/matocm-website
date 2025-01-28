@@ -3,10 +3,11 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import Team from './pages/Team';
 import Projects from './pages/Projects';
-import AboutUs from './pages/AboutUs';
+// import AboutUs from './pages/AboutUs';
 import Navbar from './components/Navbar';
 import Work from './pages/Work';
 import Loader from './components/Loader';
+import OurDomains from './pages/OurDomains';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -14,7 +15,7 @@ function App() {
 
   useEffect(() => {
     // Prevent the loader for hash-based navigation like #about-us (on the Home page)
-    if (location.pathname !== '/about-us' && !location.hash) {
+    if (location.pathname !== '#about-us' && !location.hash) {
       setLoading(true);
       const timer = setTimeout(() => {
         setLoading(false);
@@ -37,7 +38,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/team" element={<Team />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/domains" element={<OurDomains />} />
             <Route path="/our-work" element={<Work />} />
           </Routes>
         </div>

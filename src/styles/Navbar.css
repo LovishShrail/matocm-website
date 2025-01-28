@@ -18,6 +18,7 @@
 }
 
 .logo-container img {
+  padding: 3px;
   width: 40px; 
   height: 40px;
   
@@ -179,8 +180,8 @@
 
   .nav-items {
     display: flex;
-    gap: 1.5rem;
-    font-size: 1.0rem;
+    gap: 2rem;
+    font-size: 1.2rem;
     font-family:Arial, Helvetica, sans-serif;
   }
   
