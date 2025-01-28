@@ -12,31 +12,31 @@ import ARVR from '../assets/domains/ar.webp'
 
 const items = [
   {
-    image: {WebD},
+    image: WebD,
     link: 'https://google.com/',
     title: 'WEB DEV',
     description: 'Craft dynamic, responsive websites.'
   },
   {
-    image: {AI},
+    image: AI,
     link: 'https://google.com/',
     title: '     AI/ML',
     description: 'Unlock the power of intelligent systems.'
   },
   {
-    image: {Blockchain},
+    image: Blockchain,
     link: 'https://google.com/',
     title: 'BLOCKCHAIN',
     description: 'Build secure, decentralized solutions.'
   },
   {
-    image: {Trading},
+    image: Trading,
     link: 'https://google.com/',
     title: 'TRADING',
     description: 'Master the art of financial markets.'
   },
   {
-    image: {ARVR},
+    image: ARVR,
     link: 'https://google.com/',
     title: 'AR/VR',
     description: 'Design immersive virtual experiences.'
