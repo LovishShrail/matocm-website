@@ -136,7 +136,7 @@ const StyledWrapper = styled.div`
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: all 2.5s cubic-bezier(0.23, 1, 0.32, 1);
   }
 
   .card .content {
@@ -159,7 +159,7 @@ const StyledWrapper = styled.div`
     pointer-events: none;
     transform: translateX(-100%);
     opacity: 0;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: all 2.2s cubic-bezier(0.23, 1, 0.32, 1);
     font-size: 1.2rem;
   }
 
@@ -169,7 +169,7 @@ const StyledWrapper = styled.div`
   }
 
   .card:hover .front-content {
-    transform: translateX(-30%);
+    transform: translateX(-100%);
   }
 
 

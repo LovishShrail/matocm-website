@@ -112,7 +112,7 @@ import aman from '../assets/finalyear/aman.jpg';
 
 const teamData = [
     {
-      title: "Previous Club Coordinators",
+      title: "PREVIOUS CLUB COORDINATORS",
       members: [
         
         {
@@ -131,7 +131,7 @@ const teamData = [
       ],
     },
     {
-      title: "Final Year",
+      title: "FINAL YEAR",
       members: [
         {
 
@@ -235,7 +235,7 @@ const teamData = [
       ],
     },
     {
-      title: "Pre-Final Year",
+      title: "PRE-FINAL YEAR",
       members: [
         {
 
@@ -299,7 +299,7 @@ const teamData = [
       ],
     },
     {
-      title: "2nd Year",
+      title: "2nd YEAR",
       members: [
         {
           name: "Prince Khandelwal",
@@ -483,7 +483,7 @@ const teamData = [
       ],
     },
     {
-      title: "1st Year",
+      title: "1st YEAR",
       members: [
         
         {
