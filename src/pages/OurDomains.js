@@ -20,7 +20,7 @@ const items = [
   {
     image: AI,
     link: 'https://google.com/',
-    title: '     AI/ML',
+    title: ' AI/ML',
     description: 'Unlock the power of intelligent systems.'
   },
   {
@@ -41,7 +41,7 @@ const items = [
     title: 'AR/VR',
     description: 'Design immersive virtual experiences.'
   },
- 
+
 ];
 
 

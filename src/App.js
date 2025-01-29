@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Work from './pages/Work';
 import Loader from './components/Loader';
 import OurDomains from './pages/OurDomains';
+import Devinfo from './pages/DevInfo';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -40,6 +41,8 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/domains" element={<OurDomains />} />
             <Route path="/our-work" element={<Work />} />
+            <Route path = "/dev-info" element = {<Devinfo />} />
+            <Route path="*" element={<Home />} />
           </Routes>
         </div>
       )}
