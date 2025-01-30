@@ -74,8 +74,8 @@ const Home = () => {
         id="about-us"
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 1.2, ease: "easeInOut" }}
+        viewport={{ once:false, amount: 0.3 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
       >
         <AboutSection />
       </motion.div>
