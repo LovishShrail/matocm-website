@@ -1,5 +1,6 @@
 
 .faq-card {
+    position: relative;
     background:#ffffff;
     border-radius: 16px; 
     padding: 10px 20px; 
@@ -7,6 +8,7 @@
     max-width: 100%;
     overflow: hidden;
     margin-bottom: 0.5rem; 
+    z-index: 100;
 }
 
 .faq-card.expanded {

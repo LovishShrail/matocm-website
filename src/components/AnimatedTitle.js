@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Png2 from '../assets/bg 3.png';
-import Png from '../assets/bg.png';
+import Png from '../assets/bg2.png';
 import HackerText from '../components/HackerText.js';
 import Hero from '../components/Hero.js';
 import '../styles/Home.css';

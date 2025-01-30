@@ -49,7 +49,7 @@ const Team = () => {
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             backgroundClip: "text",
-          }}> <HackerText text = {category.title} /></p>
+          }}> <HackerText text={category.title} /></p>
           <div className="team-grid">
             {category.members
               .filter((member) =>
@@ -67,11 +67,11 @@ const Team = () => {
         </div>
       ))}
 
-<div className="footer">
+      <div className="footer">
 
-<Footer/>
+        <Footer />
 
-  </div>
+      </div>
     </div>
   );
 };
