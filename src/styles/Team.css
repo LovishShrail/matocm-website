@@ -89,7 +89,8 @@
 
 /* Team Category Styles */
 .team-category {
-  margin-bottom: 7rem;
+    margin-bottom: 6rem;
+    margin-left: -5px;
 }
 
 .team-category h2 {
