@@ -16,8 +16,9 @@ const Footer = () => {
                     </div>
                     <ul className="domain-list">
 
-                        <li>Web Development</li>
                         <li>AI/ML</li>
+                        <li>Web Development</li>
+                        <li>App Development</li>
                         <li>Blockchain</li>
                         <li>AR/VR</li>
                         <li>Finances</li>

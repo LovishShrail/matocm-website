@@ -12,18 +12,18 @@ import Devinfo from './pages/DevInfo';
 
 function App() {
   const [loading, setLoading] = useState(false);
-  const location = useLocation(); // Correct usage since the Router is already in index.js
+  const location = useLocation(); 
 
   useEffect(() => {
-    // Prevent the loader for hash-based navigation like #about-us (on the Home page)
+    
     if (location.pathname !== '#about-us' && !location.hash) {
       setLoading(true);
       const timer = setTimeout(() => {
         setLoading(false);
-      }, 1500); // Simulate a delay
+      }, 1500); 
       return () => clearTimeout(timer);
     } else {
-      // If the current route is About Us or there's a hash change (no full route change), don't show the loader
+    
       setLoading(false);
     }
   }, [location]);
