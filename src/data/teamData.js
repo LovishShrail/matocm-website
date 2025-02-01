@@ -112,7 +112,7 @@ import aman from '../assets/finalyear/aman.jpg';
 
 const teamData = [
     {
-      title: "PREVIOUS CLUB COORDINATORS",
+      title: "Previous Club Coordinators",
       members: [
         
         {
@@ -131,7 +131,7 @@ const teamData = [
       ],
     },
     {
-      title: "FINAL YEAR",
+      title: "Final Year",
       members: [
         {
 
@@ -235,7 +235,7 @@ const teamData = [
       ],
     },
     {
-      title: "PRE-FINAL YEAR",
+      title: "Pre-Final Year",
       members: [
         {
 
@@ -274,7 +274,7 @@ const teamData = [
           links: { instagram: "https://www.instagram.com/anshikabharwal?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
         },
         {
-          name: "Devender Pandey",
+          name: "Devender Kumar",
           image: DevenderKumar_22bma010,
           links: { instagram: "https://www.instagram.com/devenderkumar2003?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "#" },
         },
@@ -299,7 +299,7 @@ const teamData = [
       ],
     },
     {
-      title: "2nd YEAR",
+      title: "2nd Year",
       members: [
         {
           name: "Prince Khandelwal",
@@ -483,7 +483,7 @@ const teamData = [
       ],
     },
     {
-      title: "1st YEAR",
+      title: "1st Year",
       members: [
         
         {

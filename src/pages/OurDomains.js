@@ -3,12 +3,12 @@ import '../styles/OurDomains.css'
 import HackerText from '../components/HackerText'
 import Footer from '../components/Footer'
 import RollingGallery from '../components/RollingGallery'
-import WebD from '../assets/domains/webD.png'
-import AI from '../assets/domains/aiml.jpg'
-import Blockchain from '../assets/domains/blockchain.png'
-import Trading from '../assets/domains/trading.png'
-import ARVR from '../assets/domains/ar.webp'
-
+import WebD from '../assets/domains/WebDev.jpg'
+import AI from '../assets/domains/aiml.jpeg'
+import Blockchain from '../assets/domains/blockchain.jpg'
+import Trading from '../assets/domains/trading.jpg'
+import ARVR from '../assets/domains/arvr.jpg'
+import AppD from '../assets/domains/appD.jpg'
 
 const items = [
   {
@@ -16,31 +16,38 @@ const items = [
     link: 'https://google.com/',
     title: 'WEB DEV',
     description: 'Craft dynamic, responsive websites.'
-  },
-  {
+},
+{
     image: AI,
     link: 'https://google.com/',
     title: ' AI/ML',
     description: 'Unlock the power of intelligent systems.'
-  },
-  {
+},
+{
     image: Blockchain,
     link: 'https://google.com/',
     title: 'BLOCKCHAIN',
     description: 'Build secure, decentralized solutions.'
-  },
-  {
+},
+{
     image: Trading,
     link: 'https://google.com/',
     title: 'TRADING',
     description: 'Master the art of financial markets.'
-  },
-  {
+},
+{
     image: ARVR,
     link: 'https://google.com/',
     title: 'AR/VR',
     description: 'Design immersive virtual experiences.'
-  },
+},
+{
+    image: AppD,
+    link: 'https://google.com/',
+    title: 'APP DEV',
+    description: 'Create high-performance mobile and web apps.'
+}
+
 
 ];
 
