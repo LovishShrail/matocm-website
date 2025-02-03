@@ -99,6 +99,9 @@ import yogesh from '../assets/finalyear/yogesh.jpg';
 import palak from '../assets/finalyear/palak.jpg';
 import aman from '../assets/finalyear/aman.jpg';
 
+// first cc
+import sanchit from '../assets/passoutcc/sanchit.jpg';
+import himanshu from '../assets/passoutcc/himanshu.jpg';
 
 
 
@@ -115,6 +118,20 @@ const teamData = [
       title: "Previous Club Coordinators",
       members: [
         
+        {
+
+          name: 'HIMANSHU',
+          image: himanshu,
+          links: { instagram: "https://www.instagram.com/_himanshu_079?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", linkedin: "https://www.linkedin.com/in/himanshudiwaan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+
+        },
+        {
+
+          name: 'SHANCHIT SHARMA',
+          image: sanchit,
+          links: { instagram: "https://www.instagram.com/sanchit_s06/", linkedin: "https://www.linkedin.com/in/sanchitsharma06/" },
+
+        },
         {
 
           name: 'Dharuva Thakur',
